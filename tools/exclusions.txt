@@ -1,1 +1,11 @@
 gitignore
+\apps\qgis_portable\QGIS\apps\grass\
+\apps\qgis_portable\QGIS\apps\msys\
+\apps\qgis_portable\QGIS\apps\Python27\
+\apps\qgis_portable\QGIS\apps\qgis\grass\
+\apps\qgis_portable\QGIS\apps\qgis\python\plugins
+\apps\qgis_portable\QGIS\apps\qgis\resources\cpt-city-qgis-min\
+\apps\qgis_portable\QGIS\apps\qt4\
+\apps\qgis_portable\QGIS\apps\saga\
+\apps\qgis_portable\QGIS\bin\oraociei11.dll
+
