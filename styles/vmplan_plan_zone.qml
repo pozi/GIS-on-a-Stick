@@ -58,7 +58,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -70,7 +70,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -82,7 +82,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -94,7 +94,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -106,7 +106,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -118,7 +118,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -130,7 +130,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -142,7 +142,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -154,7 +154,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -166,7 +166,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -178,7 +178,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -190,7 +190,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -202,7 +202,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -214,7 +214,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -226,7 +226,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -238,7 +238,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -250,7 +250,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -262,7 +262,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -274,7 +274,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -286,7 +286,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -298,7 +298,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -310,7 +310,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -322,7 +322,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -334,7 +334,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -346,7 +346,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -358,7 +358,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -370,7 +370,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -382,7 +382,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -394,7 +394,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -406,7 +406,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -418,7 +418,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -430,7 +430,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -442,7 +442,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -454,7 +454,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -466,7 +466,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -478,7 +478,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -490,7 +490,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -502,7 +502,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -514,7 +514,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -526,7 +526,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -538,7 +538,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -550,7 +550,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -562,7 +562,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -574,7 +574,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -586,7 +586,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -598,7 +598,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -612,7 +612,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="solid"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
@@ -746,7 +746,7 @@
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
-  <layerTransparency>0</layerTransparency>
+  <layerTransparency>50</layerTransparency>
   <displayfield>Zone</displayfield>
   <label>0</label>
   <labelattributes>
@@ -773,6 +773,7 @@
     <edittype labelontop="0" editable="1" type="0" name="LGA"/>
     <edittype labelontop="0" editable="1" type="0" name="LGA_CODE"/>
     <edittype labelontop="0" editable="1" type="0" name="MI_PRINX"/>
+    <edittype labelontop="0" editable="1" type="0" name="OGC_FID"/>
     <edittype labelontop="0" editable="1" type="0" name="PLANNING_CODE"/>
     <edittype labelontop="0" editable="1" type="0" name="SCHEME_CODE"/>
     <edittype labelontop="0" editable="1" type="0" name="SUPPLY_VERSION"/>
@@ -783,7 +784,7 @@
     <edittype labelontop="0" editable="1" type="0" name="ZONE_STATUS"/>
     <edittype labelontop="0" editable="1" type="0" name="Zone"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
