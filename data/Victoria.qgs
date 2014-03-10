@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2068041.97844011639244854</xmin>
-            <ymin>2269727.77103104535490274</ymin>
-            <xmax>2982031.93407474784180522</xmax>
-            <ymax>2830461.51614904869347811</ymax>
+            <xmin>2505166.23534450307488441</xmin>
+            <ymin>2410521.70986159704625607</ymin>
+            <xmax>2506058.80366055481135845</xmax>
+            <ymax>2411069.30140956491231918</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="vmlite_built_up_area20140220114915017">
+    <legend updateDrawingOrder="true" activeLayer="vmprop_property_mp20140228103924267">
         <legendgroup open="true" checked="Qt::Checked" name="Vicmap Property">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -75,7 +75,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Address">
+        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Address">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Address" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmadd_address20140228121748753" visible="1"/>
@@ -8476,7 +8476,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1921" maximumScale="30" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="2500" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmprop_property_mp20140228103924267</id>
             <datasource>dbname='./Victoria.sqlite' table="vmprop_property_mp" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -8502,7 +8502,7 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol alpha="1" type="fill" name="0">
+                    <symbol alpha="0.337255" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="236,236,236,255"/>
@@ -8511,7 +8511,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="1.26"/>
+                            <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
                 </symbols>
