@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2505166.23534450307488441</xmin>
-            <ymin>2410521.70986159704625607</ymin>
-            <xmax>2506058.80366055481135845</xmax>
-            <ymax>2411069.30140956491231918</ymax>
+            <xmin>2496827.35235010739415884</xmin>
+            <ymin>2420448.50497024971991777</ymin>
+            <xmax>2498612.48898223135620356</xmax>
+            <ymax>2421543.68806619849056005</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,14 +24,7 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true" activeLayer="vmprop_property_mp20140228103924267">
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Property">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="1"/>
-                </filegroup>
-            </legendlayer>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Public Transport">
+        <legendgroup open="false" checked="Qt::Checked" name="Public Transport">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bus Stops" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_895_stops_vicmap20140305115834063" visible="1"/>
@@ -58,7 +51,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Vicmap Transport">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vicmap Transport">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Road" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmtrans_tr_road20140224133111812" visible="1"/>
@@ -75,32 +68,17 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Address">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Address">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Address" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmadd_address20140228121748753" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Planning">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Plan Zone" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_zone20140226144909341" visible="0"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Urban Growth Boundary" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Property">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_ugb20140226144909323" visible="0"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Urban Growth Area " showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_uga20140226144909266" visible="0"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Overlay" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_overlay20140226144908483" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -181,7 +159,29 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Lite">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Planning">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Plan Zone" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_zone20140226144909341" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Urban Growth Boundary" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_ugb20140226144909323" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Urban Growth Area " showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_uga20140226144909266" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Plan Overlay" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmplan_plan_overlay20140226144908483" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Lite">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Transport Airport" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_tr_airport20140220114915840" visible="1"/>
@@ -202,8 +202,8 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_locality20140220114915590" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Rail" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Rail" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_tr_rail20140220114915878" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -217,8 +217,8 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_hy_watercourse20140220114915453" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LGA" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="LGA" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_lga20140220114915548" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -4884,7 +4884,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="5000" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_lga20140220114915548</id>
             <datasource>dbname='./Victoria.sqlite' table="vmlite_lga" (GEOMETRY) sql="STATE" = 'VIC' </datasource>
             <title></title>
@@ -5840,7 +5840,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="5000" maximumScale="2e+06" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_tr_rail20140220114915878</id>
             <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_rail" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
@@ -5867,9 +5867,32 @@
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
+                        <layer pass="0" class="MarkerLine" locked="0">
+                            <prop k="interval" v="1.5"/>
+                            <prop k="interval_unit" v="MM"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="placement" v="interval"/>
+                            <prop k="rotate" v="1"/>
+                            <symbol alpha="1" type="marker" name="@0@0">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="255,0,0,255"/>
+                                    <prop k="color_border" v="170,170,170,255"/>
+                                    <prop k="name" v="line"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="offset_unit" v="MM"/>
+                                    <prop k="outline_width" v="0"/>
+                                    <prop k="outline_width_unit" v="MM"/>
+                                    <prop k="scale_method" v="area"/>
+                                    <prop k="size" v="1"/>
+                                    <prop k="size_unit" v="MM"/>
+                                </layer>
+                            </symbol>
+                        </layer>
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="181,181,183,255"/>
+                            <prop k="color" v="170,170,170,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="joinstyle" v="bevel"/>
@@ -5877,7 +5900,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.3"/>
+                            <prop k="width" v="0.26"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
@@ -8476,7 +8499,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1" maximumScale="2500" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="5000" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmprop_property_mp20140228103924267</id>
             <datasource>dbname='./Victoria.sqlite' table="vmprop_property_mp" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -8502,16 +8525,16 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol alpha="0.337255" type="fill" name="0">
+                    <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="236,236,236,255"/>
-                            <prop k="color_border" v="167,167,167,255"/>
+                            <prop k="color_border" v="200,200,200,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
+                            <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
+                            <prop k="width_border" v="0.16"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -10213,7 +10236,7 @@
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="1">
                             <prop k="capstyle" v="round"/>
-                            <prop k="color" v="151,148,152,255"/>
+                            <prop k="color" v="153,150,154,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="joinstyle" v="round"/>
@@ -10221,7 +10244,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.9"/>
+                            <prop k="width" v="1.2"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                         <layer pass="1" class="SimpleLine" locked="0">
