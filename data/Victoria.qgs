@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2496827.35235010739415884</xmin>
-            <ymin>2420448.50497024971991777</ymin>
-            <xmax>2498612.48898223135620356</xmax>
-            <ymax>2421543.68806619849056005</ymax>
+            <xmin>2111392.93902550544589758</xmin>
+            <ymin>2250344.07504064589738846</ymin>
+            <xmax>3025382.89476023707538843</xmax>
+            <ymax>2811077.82022006064653397</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,48 +23,48 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="vmprop_property_mp20140228103924267">
-        <legendgroup open="false" checked="Qt::Checked" name="Public Transport">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bus Stops" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+    <legend updateDrawingOrder="true" activeLayer="vmadmin_locality_polygon20140226115535126">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Public Transport">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Bus Stops" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_895_stops_vicmap20140305115834063" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Corridoor" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Train Corridoor" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Track Central" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Train Track Central" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bus Route" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419" visible="1"/>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Route" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Railway station Platform" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Railway Station Platform" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vicmap Transport">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Road" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Vicmap Transport">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Road" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmtrans_tr_road20140224133111812" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Train Rail" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Train Rail" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmtrans_tr_rail20140303150307371" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Rail Infrastructure" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmtrans_tr_rail_infrastructure20140303150307563" visible="1"/>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Rail Infrastructure" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmtrans_tr_rail_infrastructure20140303150307563" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -75,7 +75,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Property">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Property">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="1"/>
@@ -83,11 +83,6 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Admin">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Locality Area Polygon" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmadmin_ad_locality_area_polygon20140226115547934" visible="0"/>
-                </filegroup>
-            </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CFA Region" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmadmin_cfa_region20140225163711190" visible="0"/>
@@ -182,7 +177,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="Vicmap Lite">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Transport Airport" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name=" Airport" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_tr_airport20140220114915840" visible="1"/>
                 </filegroup>
@@ -217,8 +212,8 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_hy_watercourse20140220114915453" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="LGA" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LGA" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_lga20140220114915548" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -254,7 +249,7 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <projectlayers layercount="44">
+    <projectlayers layercount="43">
         <maplayer minimumScale="0" maximumScale="5000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadd_address20140228121748753</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadd_address" (GEOMETRY) sql=</datasource>
@@ -514,213 +509,6 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>vmadmin_ad_locality_area_polygon20140226115547934</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmadmin_ad_locality_area_polygon" (GEOMETRY) sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>Locality Area Polygon</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <provider encoding="System">spatialite</provider>
-            <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="177,244,122,255"/>
-                            <prop k="color_border" v="177,244,122,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="no"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.8"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/blendMode" value="0"/>
-                <property key="labeling/bufferBlendMode" value="0"/>
-                <property key="labeling/bufferColorA" value="255"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/decimals" value="3"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontBold" value="false"/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="8.25"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Normal"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="false"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/quadOffset" value="4"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="10000000"/>
-                <property key="labeling/scaleMin" value="1"/>
-                <property key="labeling/scaleVisibility" value="false"/>
-                <property key="labeling/shadowBlendMode" value="6"/>
-                <property key="labeling/shadowColorB" value="0"/>
-                <property key="labeling/shadowColorG" value="0"/>
-                <property key="labeling/shadowColorR" value="0"/>
-                <property key="labeling/shadowDraw" value="false"/>
-                <property key="labeling/shadowOffsetAngle" value="135"/>
-                <property key="labeling/shadowOffsetDist" value="1"/>
-                <property key="labeling/shadowOffsetGlobal" value="true"/>
-                <property key="labeling/shadowOffsetUnits" value="1"/>
-                <property key="labeling/shadowRadius" value="1.5"/>
-                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-                <property key="labeling/shadowRadiusUnits" value="1"/>
-                <property key="labeling/shadowScale" value="100"/>
-                <property key="labeling/shadowTransparency" value="30"/>
-                <property key="labeling/shadowUnder" value="0"/>
-                <property key="labeling/shapeBlendMode" value="0"/>
-                <property key="labeling/shapeBorderColorA" value="255"/>
-                <property key="labeling/shapeBorderColorB" value="128"/>
-                <property key="labeling/shapeBorderColorG" value="128"/>
-                <property key="labeling/shapeBorderColorR" value="128"/>
-                <property key="labeling/shapeBorderWidth" value="0"/>
-                <property key="labeling/shapeBorderWidthUnits" value="1"/>
-                <property key="labeling/shapeDraw" value="false"/>
-                <property key="labeling/shapeFillColorA" value="255"/>
-                <property key="labeling/shapeFillColorB" value="255"/>
-                <property key="labeling/shapeFillColorG" value="255"/>
-                <property key="labeling/shapeFillColorR" value="255"/>
-                <property key="labeling/shapeJoinStyle" value="64"/>
-                <property key="labeling/shapeOffsetUnits" value="1"/>
-                <property key="labeling/shapeOffsetX" value="0"/>
-                <property key="labeling/shapeOffsetY" value="0"/>
-                <property key="labeling/shapeRadiiUnits" value="1"/>
-                <property key="labeling/shapeRadiiX" value="0"/>
-                <property key="labeling/shapeRadiiY" value="0"/>
-                <property key="labeling/shapeRotation" value="0"/>
-                <property key="labeling/shapeRotationType" value="0"/>
-                <property key="labeling/shapeSVGFile" value=""/>
-                <property key="labeling/shapeSizeType" value="0"/>
-                <property key="labeling/shapeSizeUnits" value="1"/>
-                <property key="labeling/shapeSizeX" value="0"/>
-                <property key="labeling/shapeSizeY" value="0"/>
-                <property key="labeling/shapeTransparency" value="0"/>
-                <property key="labeling/shapeType" value="0"/>
-                <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-            </customproperties>
-            <blendMode>0</blendMode>
-            <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>0</layerTransparency>
-            <displayfield>NAME</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="MS Shell Dlg 2"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="CREATE_DATE_PFI"/>
-                <edittype labelontop="0" editable="1" type="0" name="CREATE_DATE_UFI"/>
-                <edittype labelontop="0" editable="1" type="0" name="FEATURE_QUALITY_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="FEATURE_TYPE_CODE"/>
-                <edittype labelontop="0" editable="1" type="0" name="NAME"/>
-                <edittype labelontop="0" editable="1" type="0" name="NAMED_FEATURE_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="NONUNIQUE_LOCALITY"/>
-                <edittype labelontop="0" editable="1" type="0" name="OGC_FID"/>
-                <edittype labelontop="0" editable="1" type="0" name="PFI"/>
-                <edittype labelontop="0" editable="1" type="0" name="STATE"/>
-                <edittype labelontop="0" editable="1" type="0" name="SUPERCEDED_PFI"/>
-                <edittype labelontop="0" editable="1" type="0" name="UFI"/>
-            </edittypes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_cfa_distict20140226115546858</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_cfa_distict" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -919,7 +707,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_cfa_region20140225163711190</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_cfa_region" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -971,10 +759,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -984,7 +772,7 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="CFA_REGION"/>
-                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
                 <property key="labeling/fontItalic" value="false"/>
@@ -996,7 +784,7 @@
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
                 <property key="labeling/isExpression" value="false"/>
@@ -1011,7 +799,7 @@
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/namedStyle" value="Bold"/>
                 <property key="labeling/obstacle" value="true"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
@@ -1929,7 +1717,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_locality_polygon20140226115535126</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_locality_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -1981,10 +1769,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="1.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -1992,8 +1780,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="LOCALITY_NAME"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -2013,7 +1801,7 @@
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/limitNumLabels" value="true"/>
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
                 <property key="labeling/maxNumLabels" value="2000"/>
@@ -2080,9 +1868,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="116"/>
+                <property key="labeling/textColorG" value="209"/>
+                <property key="labeling/textColorR" value="85"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -2133,7 +1921,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_mfb_district20140226115540290</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_mfb_district" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -2185,10 +1973,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="1.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -2196,8 +1984,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="MFB_DISTRICT"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -2387,10 +2175,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -2398,8 +2186,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="PARISH_NAME"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -2486,9 +2274,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="118"/>
+                <property key="labeling/textColorG" value="165"/>
+                <property key="labeling/textColorR" value="51"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -2522,6 +2310,8 @@
             </labelattributes>
             <edittypes>
                 <edittype labelontop="0" editable="1" type="0" name="OGC_FID"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARISH_CODE"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARISH_NAME"/>
                 <edittype labelontop="0" editable="1" type="0" name="PFI"/>
                 <edittype labelontop="0" editable="1" type="0" name="PFI_CREATED"/>
                 <edittype labelontop="0" editable="1" type="0" name="POSTCODE"/>
@@ -2537,7 +2327,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_postcode_polygon20140226115540992</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_postcode_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -2589,10 +2379,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -2600,8 +2390,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="POSTCODE"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -2688,9 +2478,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="118"/>
+                <property key="labeling/textColorG" value="62"/>
+                <property key="labeling/textColorR" value="135"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -2730,6 +2520,7 @@
                 <edittype labelontop="0" editable="1" type="0" name="OGC_FID"/>
                 <edittype labelontop="0" editable="1" type="0" name="PFI"/>
                 <edittype labelontop="0" editable="1" type="0" name="PFI_CREATED"/>
+                <edittype labelontop="0" editable="1" type="0" name="POSTCODE"/>
                 <edittype labelontop="0" editable="1" type="0" name="UFI"/>
                 <edittype labelontop="0" editable="1" type="0" name="UFI_CREATED"/>
                 <edittype labelontop="0" editable="1" type="0" name="UFI_OLD"/>
@@ -2794,10 +2585,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="1.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -2805,8 +2596,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="REGION_LABEL"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -2943,7 +2734,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_township_polygon20140226115543207</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_township_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -2995,10 +2786,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -3006,8 +2797,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="TOWNSHIP_NAME"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -3094,9 +2885,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="66"/>
+                <property key="labeling/textColorG" value="164"/>
+                <property key="labeling/textColorR" value="205"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -3146,7 +2937,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_vicgov_region20140226115541632</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadmin_vicgov_region" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -3198,10 +2989,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="0.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
@@ -5643,7 +5434,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Transport Airport</layername>
+            <layername> Airport</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -9126,7 +8917,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="8104" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="8104" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_1229_rail_stat_platform20140305115833860</id>
             <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1229_rail_stat_platform" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -9134,7 +8925,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Railway station Platform</layername>
+            <layername>Railway Station Platform</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -9155,7 +8946,7 @@
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="222,211,197,255"/>
+                            <prop k="color" v="117,122,126,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -10209,7 +10000,7 @@
         </maplayer>
         <maplayer minimumScale="40" maximumScale="25000" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_tr_road20140224133111812</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql="CLASS_CODE"  &lt;= 7</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10278,7 +10069,7 @@
                 <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="1.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
