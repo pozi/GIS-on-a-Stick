@@ -46,7 +46,7 @@ VMELEV,Metro Contour 1-5 Metre - Vicmap Elevation,EL_CONTOUR_1TO5M,EL_CONTOUR_1T
 VMELEV,"Ground Surface Point 1:25,000 - Vicmap Elevation",EL_GRND_SURFACE_POINT,EL_GRND_SURFACE_POINT,ANZVI0803002502,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002502&publicId=guest&extractionProviderId=1
 VMELEV,Vicmap Elevation - 1-5 Contours & Relief,VICMAP_ELEV_1-5 CONT & RELIEF,EL_GRND_SURFACE_POINT_1TO5M,ANZVI0803003295,http://services.land.vic.gov.au/SpatialDatamart/dataSearchViewMetadata.html?anzlicId=ANZVI0803003295&extractionProviderId=1
 VMELEV,"Ground Type Area (Polygon) 1:25,000 - Vicmap Elevation",EL_GRND_TYPE_AREA_POLYGON,EL_GRND_TYPE_AREA_POLYGON,ANZVI0803002893,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002893&publicId=guest&extractionProviderId=1
-VMELEV,"Morphology Line 1:25,000 - Vicmap Elevation",EL_MORPHOLOGY_LINE,EL_MORPHOLOGY_LINE,ANZVI0803002500,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002500&publicId=guest&extractionProviderId=1
+VMELEV,,EL_MORPHOLOGY_LINE,EL_MORPHOLOGY_LINE,ANZVI0803002500,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002500&publicId=guest&extractionProviderId=1
 VMELEV,,,EL_MORPHOLOGY_POINT, ANZVI0803002544,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002500&publicId=guest&extractionProviderId=1
 VMFEAT,,,BUILDING_POINT,,
 VMFEAT,,,BUILDING_POLYGON,,
@@ -59,10 +59,10 @@ VMFEAT,Hydrographic Labels - Vicmap Features of Interest,GEO_AREA_HYDRO_LABEL,GE
 VMFEAT,Relief Labels - Vicmap Features of Interest,GEO_AREA_RELIEF_LABEL,GEO_AREA_RELIEF_LABEL,ANZVI0803003308,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803003308&publicId=guest&extractionProviderId=1
 VMFEAT,Relief Labels (Point) - Vicmap Features of Interest,GEO_POINT_RELIEF_LABEL,GEO_POINT_RELIEF_LABEL,ANZVI0803003562,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803003562&publicId=guest&extractionProviderId=1
 VMFEAT,,,GNR,,
-VMFEAT,,,LOCALITY_POINT,,
-VMFEAT,,,PL_PLACE_AREA_POLYGON,ANZVI0803002538,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002538&publicId=guest&extractionProviderId=1
-VMHYDRO,,,HY_WATER_AREA_POLYGON,,
-VMHYDRO,,,HY_WATER_POINT,ANZVI0803002489,http://services.land.vic.gov.au/SpatialDatamart/dataSearchViewMetadata.html?anzlicId=ANZVI0803002489&extractionProviderId=1
+VMFEAT,,,LOCALITY_POINT,ANZVI0803003600,
+VMFEAT,"Place Area Polygon 1:25,000 - Vicmap Features of Interest",PL_PLACE_AREA_POLYGON,PL_PLACE_AREA_POLYGON,ANZVI0803002538,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002538&publicId=guest&extractionProviderId=1
+VMHYDRO,"Vicmap Hydro 1:25,000",VICMAP_HYDRO,HY_WATER_AREA_POLYGON,ANZVI0803002489,http://services.land.vic.gov.au/SpatialDatamart/dataSearchViewMetadata.html?anzlicId=ANZVI0803002489&extractionProviderId=1
+VMHYDRO,"Vicmap Hydro 1:25,000",VICMAP_HYDRO,HY_WATER_POINT,ANZVI0803002489,http://services.land.vic.gov.au/SpatialDatamart/dataSearchViewMetadata.html?anzlicId=ANZVI0803002489&extractionProviderId=1
 VMHYDRO,Water Structure Area (polygon) Vicmap Hydro,HY_WATER_STRUCT_AREA_POLYGON,HY_WATER_STRUCT_AREA_POLYGON,ANZVI0803002498,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002498&publicId=guest&extractionProviderId=1
 VMHYDRO,Vicmap Hydro,VICMAP_HYDRO,HY_WATER_STRUCT_LINE,ANZVI0803002496,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002496&publicId=guest&extractionProviderId=1
 VMHYDRO,"Water Structure Point 1:25,000 - Vicmap Hydro",HY_WATER_STRUCT_POINT,HY_WATER_STRUCT_POINT,ANZVI0803002497,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002497&publicId=guest&extractionProviderId=1
@@ -89,8 +89,8 @@ VMTRANS,Road Network - Vicmap Transport,TR_ROAD,TR_ROAD,ANZVI0803002595,http://s
 VMTRANS,,,TR_AIRPORT_INFRASTRUCTURE_POINT,ANZVI0803002612,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803002612&publicId=guest&extractionProviderId=1
 VMTRANS,Aspatial Table - Road Locality Table - Vicmap Transport,TR_ROAD_LOCALITY,TR_ROAD_LOCALITY,ANZVI0803003244 ,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803003244&publicId=guest&extractionProviderId=1
 VMTRANS,Aspatial Table - Road Locality Section Table - Vicmap Transport,TR_ROAD_LOCALITY_SECTION,TR_ROAD_LOCALITY_SECTION,ANZVI0803003245,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803003245&publicId=guest&extractionProviderId=1
-VMVEG,,,PLANTATION,,
-VMVEG,,,TREE_DENSITY,,
+VMVEG,Plantations across Victoria - Vicmap Vegetation,VMVEG_PLANTATION,PLANTATION,ANZVI0803004754,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803004754&publicId=guest&extractionProviderId=1
+VMVEG,"Vicmap Vegetation 1:25,000",VICMAP_VEGETATION,TREE_DENSITY,ANZVI0803002618,http://services.land.vic.gov.au/SpatialDatamart/dataSearchViewMetadata.html?anzlicId=ANZVI0803002618&extractionProviderId=1
 PTV,PTV Train Stations,RAIL_STATIONS_VMT,RAE_932_RAIL_STATIONS_VMT,ANZVI0803000053,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803000053&publicId=guest&extractionProviderId=1
 PTV,PTV Bus Routes Metro,METRO_BUS_ROUTES,RAE_955_METRO_BUS_ROUTES,ANZVI0803000054,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803000054&publicId=guest&extractionProviderId=1
 PTV,PTV Tram Stops,TRAM_STOPS_VICMAP,RAE_918_TRAM_STOPS_VICMAP,ANZVI0803000052,http://services.land.vic.gov.au/catalogue/metadata?anzlicId=ANZVI0803000052&publicId=guest&extractionProviderId=1
