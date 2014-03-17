@@ -1,10 +1,19 @@
 # GIS-on-a-Stick
 
-Kickstart your next Geographic Information System project with a USB flash drive containing powerful GIS software  and free data.
+Kickstart your next Geographic Information System project with a USB flash drive containing open source GIS software and free data.
 
 GIS-on-a-stick contains the robust QGIS software and Vicmap data in a self-contained spatial database.
 
+GIS-on-a-Stick was launched at the Newtech Conference in Ballarat on March 2014:
 http://slid.es/simonokeefe/gis-on-a-stick
+
+GIS-on-a-Stick is a winner in the inaugural Data Vic Competition:
+http://premier.vic.gov.au/media-centre/media-releases/9402-open-access-to-government-data-driving-innovation.html
+
+### Support Platforms
+
+* PC - run `Start.bat` straight from the stick to launch QGIS and included project (no prior installation of QGIS required)
+* Mac, Linux - [download and install QGIS](http://www.qgis.org/en/site/forusers/download.html) to your machine, then launch it and open up `data/Victoria.qgs` on the stick
 
 ## Components
 
@@ -61,7 +70,8 @@ Run this batch file to copy the contents of your GIS-on-a-Stick to another flash
 GIS-on-a-Stick is designed to be shared. Starting with one stick, you can make as many copies as you need.
 
 Tips:
-* use only USB 2.0 (cheaper) or 3.0 (faster), but never 1.0, and at least 8 GB
+* although you can build your own GIS-on-a-Stick by sourcing the individual components, you can request a stick from [Groundtruth](http://www.groundtruth.com.au/gis-on-a-stick) to get you up and running quickly
+* use only USB 2.0 (cheap) or 3.0 (fast), but never 1.0, and at least 8 GB
 * reformat your blank USB drives to NTFS (as opposed to the default FAT32) because the .sqlite file is larger than the maximum file size allowed by FAT32.
 * to increase the speed of creating copies, copy the contents of your stick to your C drive first to use as your master copy
 * use the `tools\Duplicate GIS-on-a-Stick.bat` script to copy your master copy to another stick
