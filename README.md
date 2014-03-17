@@ -34,6 +34,8 @@ http://www.gaia-gis.it/gaia-sins/windows-bin-x86
 
 A *Spatialite* portable spatial database contains a wealth of Vicmap data, made available by the Victorian state government are provided under a [Creative Commons Attribution 3.0 Australia licence](http://creativecommons.org/licenses/by/3.0/au/deed.en).
 
+The database has been populated using the included *Pozi Connect* software.
+
 `\data\Victoria.sqlite`
 
 #### Project
