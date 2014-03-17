@@ -55,3 +55,15 @@ https://github.com/groundtruth/GIS-on-a-Stick/raw/master/data/Victoria.qgs
 `\tools\Duplicate GIS-on-a-Stick.bat`
 
 Run this batch file to copy the contents of your GIS-on-a-Stick to another flash drive.
+
+## Making and updating your own sticks
+
+GIS-on-a-Stick is designed to be shared. Starting with one stick, you can make as many copies as you need.
+
+Tips:
+* use only USB 2.0 (cheaper) or 3.0 (faster), but never 1.0, and at least 8 GB
+* reformat your blank USB drives to NTFS (as opposed to the default FAT32) because the .sqlite file is larger than the maximum file size allowed by FAT32.
+* to increase the speed of creating copies, copy the contents of your stick to your C drive first to use as your master copy
+* use the `tools\Duplicate GIS-on-a-Stick.bat` script to copy your master copy to another stick
+* use in conjunction with a multi-port USB hub to run off multiple copies at once - we've tested it with up to five sticks at once
+* check back regularly at [www.github.com/groundtruth/gis-on-a-stick](http://www.github.com/groundtruth/gis-on-a-stick) for the most-up-to-date instructions and tips
