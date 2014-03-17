@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2068041.97844011639244854</xmin>
-            <ymin>2269727.77103104535490274</ymin>
-            <xmax>2982031.93407474784180522</xmax>
-            <ymax>2830461.51614904869347811</ymax>
+            <xmin>2062432.24059397168457508</xmin>
+            <ymin>2272145.10178598249331117</ymin>
+            <xmax>2987641.67192089278250933</xmax>
+            <ymax>2828044.18539411155506968</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -9878,7 +9878,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="4000" maximumScale="25000" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="170" maximumScale="25000" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_tr_road20140224133111812</id>
             <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql="CLASS_CODE"  &lt;= 7</datasource>
             <title></title>
