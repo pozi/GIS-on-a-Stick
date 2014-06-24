@@ -10,7 +10,7 @@ http://slid.es/simonokeefe/gis-on-a-stick
 GIS-on-a-Stick is a winner in the inaugural Data Vic Competition:
 http://premier.vic.gov.au/media-centre/media-releases/9402-open-access-to-government-data-driving-innovation.html
 
-### Support Platforms
+### Supported Platforms
 
 * PC - run `Start.bat` straight from the stick to launch QGIS and included project (no prior installation of QGIS required)
 * Mac, Linux - [download and install QGIS](http://www.qgis.org/en/site/forusers/download.html) to your machine, then launch it and open up `data/Victoria.qgs` on the stick
