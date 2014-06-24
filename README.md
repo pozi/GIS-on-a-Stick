@@ -23,19 +23,31 @@ GIS-on-a-Stick contains the following Windows software applications.
 
 #### Portable QGIS
 
-http://webgis.arpa.piemonte.it/geoportale/index.php/notizie-e-documentazione/manuali/167-quantum-gis-qgis
+* Source: http://webgis.arpa.piemonte.it/geoportale/index.php/notizie-e-documentazione/manuali/167-quantum-gis-qgis
+* Destination: `\apps\qgis_portable`
 
-`\apps\qgis_portable`
+Recommended settings:
+
+* Settings > Options > General > Project files > *untick* Prompt to save...
+* Settings > Options > Map Tools > Identify Mode > Top down, stop at first
 
 #### Pozi Connect
 
-`\apps\poziconnect`
+* Source: http://www.groundtruth.com.au/pozi-connect-admin-guide
+* Destination: `\apps\poziconnect`
+
+Optionally edit `PoziConnect.site.ini` file to exclude tasks from drop-down list that aren't related to GIS-on-a-Stick.
+
+```
+[Settings]
+Include: GIS-on-a-Stick
+Exclude: 
+```
 
 #### Spatialite GUI
 
-http://www.gaia-gis.it/gaia-sins/windows-bin-x86
-
-`\apps\spatialite_gui-1.7.1-win-x86`
+* Source: http://www.gaia-gis.it/gaia-sins/windows-bin-x86
+* Destination: `\apps\spatialite_gui-1.7.1-win-x86`
 
 ### Data
 
@@ -45,17 +57,14 @@ A *Spatialite* portable spatial database contains a wealth of Vicmap data, made 
 
 The database has been populated using the included *Pozi Connect* software.
 
-`\data\Victoria.sqlite`
+* Destination: `\data\Victoria.sqlite`
 
 #### Project
 
 The map layers have been ordered, grouped, filtered, styled, zoom layered and labelled in a QGIS project.
 
-`\data\Victoria.qgs`
-
-To obtain the latest version of this constantly-updated file, right-click [here](https://github.com/groundtruth/GIS-on-a-Stick/raw/master/data/Victoria.qgs), and select 'Save link as...'
-
-https://github.com/groundtruth/GIS-on-a-Stick/raw/master/data/Victoria.qgs
+* Source: https://github.com/groundtruth/GIS-on-a-Stick/raw/master/data/Victoria.qgs
+* Destination: `\data\Victoria.qgs`
 
 ### Tools
 
