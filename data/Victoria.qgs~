@@ -3,12 +3,12 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Transport Victoria">
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Public Transport Victoria">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_1202_train_corr_centl20140305115831193" name="Train Corridoor">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmptv_rae_1202_train_corr_centl20140305115831193" name="Train Corridoor">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_1211_train_track_centl20140305115831567" name="Train Track">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmptv_rae_1211_train_track_centl20140305115831567" name="Train Track">
                 <customproperties>
                     <property key="overview" value="1"/>
                 </customproperties>
@@ -16,10 +16,10 @@
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_895_stops_vicmap20140305115834063" name="Bus Stops">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_909_reg_bus_routes_vm20140305115836419" name="Bus Route">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_909_reg_bus_routes_vm20140305115836419" name="Bus Route">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_1229_rail_stat_platform20140305115833860" name="Railway Station Platform">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmptv_rae_1229_rail_stat_platform20140305115833860" name="Railway Station Platform">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -71,22 +71,22 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Vicmap Transport">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Transport">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmtrans_tr_rail20140303150307371" name="Railway">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_tr_rail20140303150307371" name="Railway">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_tr_rail_infrastructure20140303150307563" name="Rail Infrastructure">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Vicmap Property">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Property">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmprop_property_mp20140228103924267" name="Property">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmprop_property_mp20140228103924267" name="Property">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Vicmap Planning">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Vicmap Planning">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmplan_plan_zone20140226144909341" name="Plan Zone">
                 <customproperties/>
@@ -101,7 +101,7 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Vicmap Lite">
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Vicmap Lite">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_tr_airport20140220114915840" name="Airport">
                 <customproperties/>
@@ -136,10 +136,10 @@
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_hy_water_area20140220114915389" name="Water Area">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmlite_public_land_su520140220114915755" name="Public Land">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_public_land_su520140220114915755" name="Public Land">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmlite_forest_su520140220114915230" name="Forest ">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_forest_su520140220114915230" name="Forest ">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_victoria_polygon_su520140220114916116" name="Victoria">
@@ -151,10 +151,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2401843.99633123073726892</xmin>
-            <ymin>2434033.47239094227552414</ymin>
-            <xmax>2407237.89995564054697752</xmax>
-            <ymax>2440053.06883578421548009</ymax>
+            <xmin>2062432.24059397168457508</xmin>
+            <ymin>2272145.10178598249331117</ymin>
+            <xmax>2987641.67192089278250933</xmax>
+            <ymax>2828044.18539411155506968</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -172,33 +172,24 @@
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_hy_watercourse20140220114915453"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_hy_water_area20140220114915389"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_depi_region20140226115531164"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_point_label20140220114915366"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_built_up_area20140220114915017"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_mfb_district20140226115540290"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_public_land_su520140220114915755"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_rail20140220114915878"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1211_train_track_centl20140305115831567"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_public_land_su520140220114915755"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail20140303150307371"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_parish_polygon20140226115543535"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail_infrastructure20140303150307563"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_locality20140220114915590"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1202_train_corr_centl20140305115831193"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_region20140225163711190"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_area_label20140220114915322"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_road20140220114915933"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_lga_polygon20140226115540446"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_state_council_200520140226115543207"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_airport20140220114915840"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_895_stops_vicmap20140305115834063"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_forest_su520140220114915230"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_rail_station20140220114915903"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_locality_polygon20140226115535126"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20140922133141473"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmprop_property_mp20140228103924267"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_victoria_polygon_su520140220114916116"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
     <layer-tree-canvas>
@@ -246,15 +237,15 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="false" checked="Qt::Unchecked" name="Public Transport Victoria">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Train Corridoor" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Public Transport Victoria">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Corridoor" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Train Track" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Track" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="0"/>
+                    <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Stops" showFeatureCount="0">
@@ -262,14 +253,14 @@
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_895_stops_vicmap20140305115834063" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Route" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bus Route" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railway Station Platform" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Railway Station Platform" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -347,9 +338,9 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Transport">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Railway" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Transport">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Railway" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmtrans_tr_rail20140303150307371" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -359,14 +350,14 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Property">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Property" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Property">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Vicmap Planning">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Planning">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Plan Zone" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmplan_plan_zone20140226144909341" visible="0"/>
@@ -388,7 +379,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vicmap Lite">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Vicmap Lite">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Airport" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_tr_airport20140220114915840" visible="1"/>
@@ -444,13 +435,13 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_hy_water_area20140220114915389" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Public Land" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Public Land" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_public_land_su520140220114915755" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmlite_public_land_su520140220114915755" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Forest " showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Forest " showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_forest_su520140220114915230" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -919,40 +910,40 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAMED_FEATURE_ID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAMED_FEATURE_ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NONUNIQUE_LOCALITY">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NONUNIQUE_LOCALITY">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="STATE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_QUALITY_ID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_QUALITY_ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CREATE_DATE_PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SUPERCEDED_PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SUPERCEDED_PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CREATE_DATE_UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -7718,46 +7709,46 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="EZI_ROAD_NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME_LABEL">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="EZI_ROAD_NAME_LABEL">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_TYPE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_SUFFIX">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CLASS_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CLASS_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SEAL">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_SEAL">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROUTE_NO">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROUTE_NO">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="STATE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SCALE_USE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SCALE_USE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI_CREATED">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI_CREATED">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -8524,34 +8515,34 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SCHEME_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SCHEME_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LGA_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LGA_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LGA">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LGA">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_NUM">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_NUM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_STATUS">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_STATUS">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SUPPLY_VERSION">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SUPPLY_VERSION">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI_CREATED">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI_CREATED">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>

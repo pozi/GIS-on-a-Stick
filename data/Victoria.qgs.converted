@@ -3,12 +3,12 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Transport Victoria">
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Public Transport Victoria">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_1202_train_corr_centl20140305115831193" name="Train Corridoor">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmptv_rae_1202_train_corr_centl20140305115831193" name="Train Corridoor">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_1211_train_track_centl20140305115831567" name="Train Track">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmptv_rae_1211_train_track_centl20140305115831567" name="Train Track">
                 <customproperties>
                     <property key="overview" value="1"/>
                 </customproperties>
@@ -16,10 +16,10 @@
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_895_stops_vicmap20140305115834063" name="Bus Stops">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_909_reg_bus_routes_vm20140305115836419" name="Bus Route">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmptv_rae_909_reg_bus_routes_vm20140305115836419" name="Bus Route">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_1229_rail_stat_platform20140305115833860" name="Railway Station Platform">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmptv_rae_1229_rail_stat_platform20140305115833860" name="Railway Station Platform">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -71,22 +71,25 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Vicmap Transport">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Transport">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmtrans_tr_rail20140303150307371" name="Railway">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_tr_road20140224133111812" name="Road">
+                <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_tr_rail20140303150307371" name="Railway">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_tr_rail_infrastructure20140303150307563" name="Rail Infrastructure">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Vicmap Property">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Property">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmprop_property_mp20140228103924267" name="Property">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmprop_property_mp20140228103924267" name="Property">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Vicmap Planning">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Vicmap Planning">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmplan_plan_zone20140226144909341" name="Plan Zone">
                 <customproperties/>
@@ -101,7 +104,7 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Vicmap Lite">
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Vicmap Lite">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_tr_airport20140220114915840" name="Airport">
                 <customproperties/>
@@ -136,10 +139,10 @@
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_hy_water_area20140220114915389" name="Water Area">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmlite_public_land_su520140220114915755" name="Public Land">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_public_land_su520140220114915755" name="Public Land">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmlite_forest_su520140220114915230" name="Forest ">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_forest_su520140220114915230" name="Forest ">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_victoria_polygon_su520140220114916116" name="Victoria">
@@ -151,10 +154,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2401843.99633123073726892</xmin>
-            <ymin>2434033.47239094227552414</ymin>
-            <xmax>2407237.89995564054697752</xmax>
-            <ymax>2440053.06883578421548009</ymax>
+            <xmin>2062432.24059397168457508</xmin>
+            <ymin>2272145.10178598249331117</ymin>
+            <xmax>2987641.67192089278250933</xmax>
+            <ymax>2828044.18539411155506968</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -172,33 +175,24 @@
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_hy_watercourse20140220114915453"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_hy_water_area20140220114915389"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_depi_region20140226115531164"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_point_label20140220114915366"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_built_up_area20140220114915017"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_mfb_district20140226115540290"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_public_land_su520140220114915755"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_rail20140220114915878"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1211_train_track_centl20140305115831567"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_public_land_su520140220114915755"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail20140303150307371"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_parish_polygon20140226115543535"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail_infrastructure20140303150307563"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_locality20140220114915590"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1202_train_corr_centl20140305115831193"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_region20140225163711190"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_area_label20140220114915322"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_road20140220114915933"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_lga_polygon20140226115540446"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_state_council_200520140226115543207"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_airport20140220114915840"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_895_stops_vicmap20140305115834063"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_forest_su520140220114915230"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_rail_station20140220114915903"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_locality_polygon20140226115535126"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20140922133141473"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_road20140224133111812"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmprop_property_mp20140228103924267"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_victoria_polygon_su520140220114916116"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
     <layer-tree-canvas>
@@ -222,6 +216,7 @@
             <item>vmadmin_depi_region20140226115531164</item>
             <item>vmadmin_cfa_tfb_district20140226115530540</item>
             <item>vmadmin_ward_201220140226115354196</item>
+            <item>vmtrans_tr_road20140224133111812</item>
             <item>vmtrans_tr_rail20140303150307371</item>
             <item>vmtrans_tr_rail_infrastructure20140303150307563</item>
             <item>vmprop_property_mp20140228103924267</item>
@@ -246,15 +241,15 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="false" checked="Qt::Unchecked" name="Public Transport Victoria">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Train Corridoor" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Public Transport Victoria">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Corridoor" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Train Track" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Train Track" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="0"/>
+                    <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Stops" showFeatureCount="0">
@@ -262,14 +257,14 @@
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_895_stops_vicmap20140305115834063" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Route" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bus Route" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railway Station Platform" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Railway Station Platform" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -347,9 +342,14 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Transport">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Railway" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Transport">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Road" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmtrans_tr_road20140224133111812" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Railway" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmtrans_tr_rail20140303150307371" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -359,14 +359,14 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Property">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Property" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="Vicmap Property">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Property" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmprop_property_mp20140228103924267" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Vicmap Planning">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Vicmap Planning">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Plan Zone" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmplan_plan_zone20140226144909341" visible="0"/>
@@ -388,7 +388,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vicmap Lite">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Vicmap Lite">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Airport" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_tr_airport20140220114915840" visible="1"/>
@@ -444,13 +444,13 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_hy_water_area20140220114915389" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Public Land" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Public Land" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_public_land_su520140220114915755" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmlite_public_land_su520140220114915755" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Forest " showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Forest " showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_forest_su520140220114915230" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -461,7 +461,7 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <projectlayers layercount="42">
+    <projectlayers layercount="43">
         <maplayer minimumScale="-4.65661e-10" maximumScale="5000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadd_address20140228121748753</id>
             <datasource>dbname='./Victoria.sqlite' table="vmadd_address" (GEOMETRY) sql=</datasource>
@@ -919,40 +919,40 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAMED_FEATURE_ID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAMED_FEATURE_ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NONUNIQUE_LOCALITY">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NONUNIQUE_LOCALITY">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="STATE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_QUALITY_ID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_QUALITY_ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CREATE_DATE_PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SUPERCEDED_PFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SUPERCEDED_PFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CREATE_DATE_UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -7718,46 +7718,46 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="EZI_ROAD_NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME_LABEL">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="EZI_ROAD_NAME_LABEL">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_TYPE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_SUFFIX">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CLASS_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="CLASS_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SEAL">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROAD_SEAL">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROUTE_NO">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ROUTE_NO">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="STATE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SCALE_USE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SCALE_USE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI_CREATED">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI_CREATED">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -8524,34 +8524,34 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SCHEME_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SCHEME_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LGA_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LGA_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LGA">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LGA">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_NUM">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_NUM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_STATUS">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_STATUS">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ZONE_CODE">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ZONE_CODE">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SUPPLY_VERSION">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SUPPLY_VERSION">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI_CREATED">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="UFI_CREATED">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -11539,6 +11539,641 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="170" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>vmtrans_tr_road20140224133111812</id>
+            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql="CLASS_CODE"  &lt;= 7</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Road</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression>COALESCE( "NAMED_FEATURE_ID", '&lt;NULL>' )</previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule>
+                        <rule scalemaxdenom="25000" scalemindenom="1" label="1 - 25000">
+                            <rule filter="&quot;CLASS_CODE&quot; = 0.0000" symbol="0" label="Freeway"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 1.0000" symbol="1" label="Highway"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 2.0000" symbol="2" label="Arterial"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 3.0000" symbol="3" label="Sub-Arterial"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 4.0000" symbol="4" label="Collector"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 5.0000" symbol="5" label="Local"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 6.0000" symbol="6" label="2WD"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 7.0000" symbol="7" label="4WD"/>
+                        </rule>
+                    </rule>
+                </rules>
+                <symbols>
+                    <symbol alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1.5"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="8" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="246,186,94,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1.2"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1.3"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="7" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,228,138,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="1.2"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="6" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,242,188,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.9"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="3">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.9"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="5" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.6"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="4">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.8"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="4" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.5"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="5">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.7"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="3" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.4"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="6">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.6"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="2" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="7">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.5"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="1" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.2"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="true"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0.75"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefined/Show" value="1~~1~~&quot;CLASS_CODE&quot; &lt; 6~~CLASS_CODE"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value=" replace( EZI_ROAD_NAME_LABEL,'Unnamed','')"/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8.25"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="true"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="200"/>
+                <property key="labeling/mergeLines" value="true"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="1"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="9"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="1000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="true"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="92"/>
+                <property key="labeling/textColorG" value="92"/>
+                <property key="labeling/textColorR" value="92"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>EZI_ROAD_NAME</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_TYPE_CODE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAMED_FEATURE_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="EZI_ROAD_NAME_LABEL">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_1">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_2">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_2">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_2">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_3">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_3">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_3">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_4">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_4">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_4">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_5">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_5">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_5">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_6">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_6">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_6">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_NAME_7">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_TYPE_7">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SUFFIX_7">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LEFT_LOCALITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="RIGHT_LOCALITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CLASS_CODE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DIRECTION_CODE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROUTE_NO">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STRUCTURE_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="HEIGHT_LIMIT">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="RESTRICTIONS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PHYSICAL_CONDITION">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CONSTRUCTION_TYPE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ROAD_SEAL">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DIV_RD">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NRE_ROUTE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FROM_UFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="TO_UFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE_QUALITY_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_PFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SUPERCEDED_PFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CREATE_DATE_UFI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
     </projectlayers>
     <properties>
         <WMSContactPerson type="QString"></WMSContactPerson>
@@ -11580,229 +12215,6 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <Digitizing>
-            <LayerSnappingList type="QStringList">
-                <value>vmadd_address20140228121748753</value>
-                <value>vmadmin_ad_locality_area_polygon20140312145319810</value>
-                <value>vmadmin_cfa_distict20140226115546858</value>
-                <value>vmadmin_cfa_region20140225163711190</value>
-                <value>vmadmin_cfa_tfb_district20140226115530540</value>
-                <value>vmadmin_depi_region20140226115531164</value>
-                <value>vmadmin_lga_polygon20140226115540446</value>
-                <value>vmadmin_locality_polygon20140226115535126</value>
-                <value>vmadmin_mfb_district20140226115540290</value>
-                <value>vmadmin_parish_polygon20140226115543535</value>
-                <value>vmadmin_postcode_polygon20140226115540992</value>
-                <value>vmadmin_state_council_200520140226115543207</value>
-                <value>vmadmin_township_polygon20140226115543207</value>
-                <value>vmadmin_vicgov_region20140226115541632</value>
-                <value>vmadmin_ward_201220140226115354196</value>
-                <value>vmlite_built_up_area20140220114915017</value>
-                <value>vmlite_forest_su520140220114915230</value>
-                <value>vmlite_geo_area_label20140220114915322</value>
-                <value>vmlite_geo_point_label20140220114915366</value>
-                <value>vmlite_hy_water_area20140220114915389</value>
-                <value>vmlite_hy_watercourse20140220114915453</value>
-                <value>vmlite_lga20140220114915548</value>
-                <value>vmlite_locality20140220114915590</value>
-                <value>vmlite_public_land_su520140220114915755</value>
-                <value>vmlite_tr_airport20140220114915840</value>
-                <value>vmlite_tr_rail20140220114915878</value>
-                <value>vmlite_tr_rail_station20140220114915903</value>
-                <value>vmlite_tr_road20140220114915933</value>
-                <value>vmlite_tr_road20140224133054707</value>
-                <value>vmlite_victoria_polygon_su520140220114916116</value>
-                <value>vmplan_plan_overlay20140226144908483</value>
-                <value>vmplan_plan_uga20140226144909266</value>
-                <value>vmplan_plan_ugb20140226144909323</value>
-                <value>vmplan_plan_zone20140226144909341</value>
-                <value>vmprop_property_mp20140228103924267</value>
-                <value>vmptv_rae_1202_train_corr_centl20140305115831193</value>
-                <value>vmptv_rae_1211_train_track_centl20140305115831567</value>
-                <value>vmptv_rae_1229_rail_stat_platform20140305115833860</value>
-                <value>vmptv_rae_895_stops_vicmap20140305115834063</value>
-                <value>vmptv_rae_909_reg_bus_routes_vm20140305115836419</value>
-                <value>vmtrans_tr_rail20140303150307371</value>
-                <value>vmtrans_tr_rail_infrastructure20140303150307563</value>
-            </LayerSnappingList>
-            <LayerSnappingEnabledList type="QStringList">
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-            </LayerSnappingEnabledList>
-            <AvoidIntersectionsList type="QStringList"/>
-            <LayerSnappingToleranceUnitList type="QStringList">
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-                <value>0</value>
-            </LayerSnappingToleranceUnitList>
-            <LayerSnapToList type="QStringList">
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-            </LayerSnapToList>
-            <LayerSnappingToleranceList type="QStringList">
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-                <value>0.000000</value>
-            </LayerSnappingToleranceList>
-        </Digitizing>
         <Identify>
             <disabledLayers type="QStringList"/>
         </Identify>
