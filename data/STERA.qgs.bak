@@ -243,8 +243,8 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924131849753"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_rail20140923155447596"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_area_polygon20140923145057363"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_medium20140929131112182"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141536738"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_medium20140929131112182"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924142359841"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="EL_CONTOUR_1TO5M20140929132315041"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141422399"/>
@@ -1475,10 +1475,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -3266,6 +3266,8 @@
                         </layer>
                     </symbol>
                 </source-symbol>
+                <colorramp type="randomcolors" name="[source]"/>
+                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -3466,10 +3468,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -16827,10 +16829,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -17081,10 +17083,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -17335,10 +17337,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -17365,8 +17367,8 @@
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
         <WCSUrl type="QString"></WCSUrl>
-        <WMSContactPhone type="QString"></WMSContactPhone>
         <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSContactPhone type="QString"></WMSContactPhone>
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
         <Measure>
