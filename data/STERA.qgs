@@ -5,45 +5,45 @@
         <customproperties/>
         <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Base">
             <customproperties/>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Administrative Boundaries">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Administrative Boundaries">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cma_region20140929135417187" name="CMA Regions">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cfa_distict20140923141627898" name="CFA Disticts">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cfa_distict20140923141627898" name="CFA Districts">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cfa_region20140923141627933" name="CFA Region">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cfa_region20140923141627933" name="CFA Regions">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cfa_tfb_district20140923141627964" name="CFA TFB Districts">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_depi_region20140923141627993" name="DEPI Region">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_depi_region20140923141627993" name="DEPI Regions">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_lga_polygon20140923141628078" name="Local Govenment Area">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_lga_polygon20140923141628078" name="Local Govenment Areas">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_locality_polygon20140923141628122" name="Locality">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_locality_polygon20140923141628122" name="Localities">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_mfb_district20140923141628211" name="MFB Districts">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_parish_polygon20140923141628240" name="Parish">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_parish_polygon20140923141628240" name="Parishes">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_township_polygon20140923141628458" name="Township">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_township_polygon20140923141628458" name="Townships">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_vicgov_region20140923141628514" name="Vic Govenment Regions">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_vicgov_region20140923141628514" name="Vic Government Regions">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Natural Landscape Features">
+            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Natural Landscape Features">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmelev_contour20140929133949283" name="Coutours">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmelev_contour20140929133949283" name="Contours">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmhydro_hy_water_area_polygon20140923145057363" name="Waterbodies">
@@ -52,7 +52,7 @@
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_point20140923145058179" name="Water Points">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmhydro_hy_watercourse20140923145058856" name="Watercourse">
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmhydro_hy_watercourse20140923145058856" name="Watercourses">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
@@ -62,7 +62,7 @@
         </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Infrastructure">
             <customproperties/>
-            <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Transport">
+            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Transport">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_road20140923161414867" name="Roads">
                     <customproperties>
@@ -85,24 +85,24 @@
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Water">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Water">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_point20140923145058761" name="Water Structure Point">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_point20140923145058761" name="Water Structure Points">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_line20140923145058612" name="Water Structure Line">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_line20140923145058612" name="Water Structure Lines">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_area_polygon20140923145058588" name="Water Structure Area">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_area_polygon20140923145058588" name="Water Structure Areas">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Power">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Power">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924120239805" name="Power Facility Points">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924120610971" name="Power Facility Area">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924120610971" name="Power Facility Areas">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_line20140924120610997" name="Power Facilitys Lines">
@@ -118,19 +118,19 @@
         </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Emergency Response Capacity">
             <customproperties/>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Emergency Service">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Emergency Service">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924125109192" name="Emergency Facilitys and Defence">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924125109192" name="Emergency Facilities and Defence">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924125109230" name="Emergency Facilitys and Defence">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924125109230" name="Emergency Facilities and Defence">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
             <layer-tree-group expanded="1" checked="Qt::Checked" name="Emergency Service Communication">
                 <customproperties/>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Health Service">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Health Service">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924130208037" name="Hospitals and Health Centres">
                     <customproperties/>
@@ -145,12 +145,12 @@
         </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Consequences">
             <customproperties/>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="People Consequences">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="People Consequences">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141645229" name="Daytime Social Infratucture">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Place of Worship">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Places of Worship">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141422399" name="Education Facilities">
@@ -166,9 +166,9 @@
             <layer-tree-group expanded="1" checked="Qt::Checked" name="Enviromental Consequences">
                 <customproperties/>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Public Administration Consequences">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Administration Consequences">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924142359841" name="Administration Facilitys">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924142359841" name="Administration Facilities">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
@@ -179,10 +179,7 @@
                 <customproperties/>
             </layer-tree-group>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Social Vulnerability Indicators">
-            <customproperties/>
-        </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Testing Layer">
+        <layer-tree-group expanded="1" checked="Qt::Checked" name="Demographic Social Vulnerability Indicators">
             <customproperties/>
         </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="Vicmap Lite">
@@ -211,10 +208,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2102822.39864957798272371</xmin>
-            <ymin>2257720.28678295528516173</ymin>
-            <xmax>2949891.07070639915764332</xmax>
-            <ymax>2834833.51492977607995272</ymax>
+            <xmin>2017493.4187294002622366</xmin>
+            <ymin>2264746.01303865574300289</ymin>
+            <xmax>3031205.34990903362631798</xmax>
+            <ymax>2841859.24118547653779387</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -255,6 +252,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_road20140923143914125"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141645229"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_built_up_area20140922160231458"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016114408702"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_vicgov_region20140923141628514"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_watercourse20140923145058856"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_scattered20140929131112210"/>
@@ -308,18 +306,18 @@
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Base">
-            <legendgroup open="true" checked="Qt::Unchecked" name="Administrative Boundaries">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Administrative Boundaries">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CMA Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_cma_region20140929135417187" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CFA Disticts" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CFA Districts" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_cfa_distict20140923141627898" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CFA Region" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CFA Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_cfa_region20140923141627933" visible="0"/>
                     </filegroup>
@@ -329,17 +327,17 @@
                         <legendlayerfile isInOverview="0" layerid="vmadmin_cfa_tfb_district20140923141627964" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DEPI Region" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DEPI Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_depi_region20140923141627993" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Local Govenment Area" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Local Govenment Areas" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_lga_polygon20140923141628078" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Locality" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Localities" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_locality_polygon20140923141628122" visible="0"/>
                     </filegroup>
@@ -349,24 +347,24 @@
                         <legendlayerfile isInOverview="0" layerid="vmadmin_mfb_district20140923141628211" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Parish" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Parishes" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_parish_polygon20140923141628240" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Township" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Townships" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_township_polygon20140923141628458" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Vic Govenment Regions" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Vic Government Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_vicgov_region20140923141628514" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::PartiallyChecked" name="Natural Landscape Features">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Coutours" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Natural Landscape Features">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Contours" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmelev_contour20140929133949283" visible="0"/>
                     </filegroup>
@@ -381,7 +379,7 @@
                         <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_point20140923145058179" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Watercourse" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Watercourses" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmhydro_hy_watercourse20140923145058856" visible="1"/>
                     </filegroup>
@@ -390,7 +388,7 @@
             <legendgroup open="true" checked="Qt::Unchecked" name="Other Features"/>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Infrastructure">
-            <legendgroup open="true" checked="Qt::PartiallyChecked" name="Transport">
+            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Transport">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmtrans_road20140923161414867" visible="1"/>
@@ -422,30 +420,30 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Water">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Point" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Water">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Points" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_point20140923145058761" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Line" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Lines" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_line20140923145058612" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Area" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Areas" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_area_polygon20140923145058588" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Power">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Power">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Points" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924120239805" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Area" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Areas" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924120610971" visible="0"/>
                     </filegroup>
@@ -465,20 +463,20 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Emergency Response Capacity">
-            <legendgroup open="true" checked="Qt::Unchecked" name="Emergency Service">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilitys and Defence" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Emergency Service">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924125109192" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilitys and Defence" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924125109230" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="true" checked="Qt::Checked" name="Emergency Service Communication"/>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Health Service">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Health Service">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Hospitals and Health Centres" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924130208037" visible="0"/>
@@ -490,13 +488,13 @@
             <legendgroup open="true" checked="Qt::Checked" name="Hazardous Material Sites"/>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Consequences">
-            <legendgroup open="true" checked="Qt::Unchecked" name="People Consequences">
+            <legendgroup open="false" checked="Qt::Unchecked" name="People Consequences">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Daytime Social Infratucture" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141645229" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Place of Worship" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Places of Worship" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141536738" visible="0"/>
                     </filegroup>
@@ -514,8 +512,8 @@
             </legendgroup>
             <legendgroup open="true" checked="Qt::Checked" name="Economic Consequences"/>
             <legendgroup open="true" checked="Qt::Checked" name="Enviromental Consequences"/>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Public Administration Consequences">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Administration Facilitys" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Public Administration Consequences">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Administration Facilities" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924142359841" visible="0"/>
                     </filegroup>
@@ -524,8 +522,7 @@
             <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 1"/>
             <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 2"/>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Social Vulnerability Indicators"/>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Testing Layer"/>
+        <legendgroup open="true" checked="Qt::Checked" name="Demographic Social Vulnerability Indicators"/>
         <legendgroup open="true" checked="Qt::Checked" name="Vicmap Lite">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -568,7 +565,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>CFA Disticts</layername>
+            <layername>CFA Districts</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -779,7 +776,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>CFA Region</layername>
+            <layername>CFA Regions</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1465,7 +1462,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>DEPI Region</layername>
+            <layername>DEPI Regions</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1704,7 +1701,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Local Govenment Area</layername>
+            <layername>Local Govenment Areas</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1958,7 +1955,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Locality</layername>
+            <layername>Localities</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -2429,7 +2426,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Parish</layername>
+            <layername>Parishes</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -2652,7 +2649,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Township</layername>
+            <layername>Townships</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -2875,7 +2872,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Vic Govenment Regions</layername>
+            <layername>Vic Government Regions</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -3117,7 +3114,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Coutours</layername>
+            <layername>Contours</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -4584,7 +4581,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Emergency Facilitys and Defence</layername>
+            <layername>Emergency Facilities and Defence</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -6468,7 +6465,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Place of Worship</layername>
+            <layername>Places of Worship</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -7388,7 +7385,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Administration Facilitys</layername>
+            <layername>Administration Facilities</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -7936,7 +7933,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Power Facility Area</layername>
+            <layername>Power Facility Areas</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -8396,7 +8393,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Emergency Facilitys and Defence</layername>
+            <layername>Emergency Facilities and Defence</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -9650,7 +9647,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Water Structure Area</layername>
+            <layername>Water Structure Areas</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -10001,7 +9998,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Water Structure Line</layername>
+            <layername>Water Structure Lines</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -10488,7 +10485,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Water Structure Point</layername>
+            <layername>Water Structure Points</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -10834,7 +10831,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Watercourse</layername>
+            <layername>Watercourses</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
