@@ -90,16 +90,22 @@
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::Unchecked" name="People Consequences">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141645229" name="Daytime Social Infratucture">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="People_under_5_or_over_85___age__copy20141020131419156" name="Population Density">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Places of Worship">
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ABS_SA2_2011_VICTORIA20141020141707760" name="Population Estimates">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141422399" name="Education Facilities">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924131849753" name="Care Facilities">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141645229" name="Daytime Social Infratucture">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Places of Worship">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
@@ -127,12 +133,6 @@
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ABS_SA1_2011_VICTORIA20141017145618402" name="People under 5 or over 85 (%age)">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="ABS data">
-                <customproperties/>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B01_VIC_SA120141017150151443" name="ABS_Census_B01_VIC_SA1">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Base">
             <customproperties/>
@@ -184,6 +184,15 @@
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="ABS / NEXIS tabular data">
+                <customproperties/>
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B01_VIC_SA120141017150151443" name="ABS_Census_B01_VIC_SA1">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="NEXIS_VIC_SA2_Residential20141020140202542" name="NEXIS_VIC_SA2_Residential">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
             <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Lite">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_road20140923143914125" name="Roads">
@@ -231,6 +240,7 @@
         </destinationsrs>
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_airport20140923123604979"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA2_2011_VICTORIA20141020141707760"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141645229"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_township_polygon20140923141628458"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_point20140923145058761"/>
@@ -242,16 +252,19 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_rail20140923155447596"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_road20140923143914125"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016122724604"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Population_Density_copy20141020140022256"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016122756422"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_point20140923145058179"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cma_region20140929135417187"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016125622373"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_region20140923141627933"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="People_under_5_or_over_85___age__copy20141020131419156"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20141017145618402"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_tfb_district20140923141627964"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_dense20140929131110955"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_line20140924120610997"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_vicgov_region20140923141628514"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA2_2011_VICTORIA20141020140119472"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_scattered20140929124210299"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_polygon20140924125109230"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_road20140923161414867"/>
@@ -339,6 +352,9 @@
             <item>vmveg_tree_density_simplified20141016144101861</item>
             <item>ABS_SA1_2011_VICTORIA20141017145618402</item>
             <item>ABS_Census_B01_VIC_SA120141017150151443</item>
+            <item>People_under_5_or_over_85___age__copy20141020131419156</item>
+            <item>NEXIS_VIC_SA2_Residential20141020140202542</item>
+            <item>ABS_SA2_2011_VICTORIA20141020141707760</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
@@ -444,14 +460,14 @@
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Consequences">
             <legendgroup open="false" checked="Qt::Unchecked" name="People Consequences">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Daytime Social Infratucture" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Population Density" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141645229" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="People_under_5_or_over_85___age__copy20141020131419156" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Places of Worship" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Population Estimates" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141536738" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="ABS_SA2_2011_VICTORIA20141020141707760" visible="0"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Education Facilities" showFeatureCount="0">
@@ -462,6 +478,16 @@
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Care Facilities" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924131849753" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Daytime Social Infratucture" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141645229" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Places of Worship" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141536738" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -483,13 +509,6 @@
                     <legendlayerfile isInOverview="0" layerid="ABS_SA1_2011_VICTORIA20141017145618402" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendgroup open="false" checked="Qt::Unchecked" name="ABS data">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B01_VIC_SA1" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B01_VIC_SA120141017150151443" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Base">
             <legendgroup open="false" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
@@ -566,6 +585,18 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
+            <legendgroup open="false" checked="Qt::PartiallyChecked" name="ABS / NEXIS tabular data">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B01_VIC_SA1" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B01_VIC_SA120141017150151443" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NEXIS_VIC_SA2_Residential" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="NEXIS_VIC_SA2_Residential20141020140202542" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="Vicmap Lite">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
@@ -600,7 +631,7 @@
             </legendgroup>
         </legendgroup>
     </legend>
-    <projectlayers layercount="43">
+    <projectlayers layercount="46">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B01_VIC_SA120141017150151443</id>
             <datasource>dbname='./STERA.sqlite' table="ABS_Census_B01_VIC_SA1" sql=</datasource>
@@ -967,7 +998,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>ABS_SA1_2011_VICTORIA20141017145618402</id>
             <datasource>dbname='./STERA.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -1251,7 +1282,1313 @@
             </customproperties>
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>66</layerTransparency>
+            <layerTransparency>40</layerTransparency>
+            <displayfield>SA2_NAME_2011</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA1_MAINCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA1_7DIGITCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_MAINCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_5DIGITCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA3_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA3_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA4_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA4_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GCCSA_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GCCSA_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Total_Persons_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Total_Persons_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Total_Persons_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_0_4_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_0_4_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_0_4_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_5_14_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_5_14_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_5_14_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_15_19_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_15_19_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_15_19_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_20_24_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_20_24_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_20_24_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_25_34_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_25_34_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_25_34_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_35_44_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_35_44_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_35_44_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_45_54_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_45_54_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_45_54_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_55_64_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_55_64_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_55_64_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_65_74_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_65_74_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_65_74_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_75_84_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_75_84_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_75_84_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_85_years_and_over_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_85_years_and_over_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_groups_85_years_and_over_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_At_home_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_At_home_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_At_home_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_Elsewhere_in_Australia_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_Elsewhere_in_Australia_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Counted_on_Census_Night_Elsewhere_in_Australia_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Aboriginal_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Aboriginal_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Aboriginal_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Torres_Strait_Islander_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Torres_Strait_Islander_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Torres_Strait_Islander_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Total_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Total_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Indigenous_Persons_Total_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Australia_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Australia_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Australia_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Elsewhere_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Elsewhere_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Birthplace_Elsewhere_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_English_only_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_English_only_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_English_only_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_Other_Language_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_Other_Language_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Language_spoken_at_home_Other_Language_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Australian_citizen_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Australian_citizen_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Australian_citizen_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_0_4_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_0_4_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_0_4_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_5_14_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_5_14_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_5_14_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_15_19_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_15_19_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_15_19_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_20_24_years_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_20_24_years_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_20_24_years_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_25_years_and_over_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_25_years_and_over_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Age_of_Persons_attending_an_educational_institution_25_years_and_over_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_12_or_equivalent_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_12_or_equivalent_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_12_or_equivalent_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_11_or_equivalent_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_11_or_equivalent_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_11_or_equivalent_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_10_or_equivalent_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_10_or_equivalent_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_10_or_equivalent_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_9_or_equivalent_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_9_or_equivalent_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_9_or_equivalent_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_8_or_below_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_8_or_below_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Year_8_or_below_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Did_not_go_to_school_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Did_not_go_to_school_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Highest_year_of_school_completed_Did_not_go_to_school_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_occupied_private_dwellings_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_occupied_private_dwellings_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_occupied_private_dwellings_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_other_dwellings_Males">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_other_dwellings_Females">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_Count_of_Persons_in_other_dwellings_Persons">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>ABS_SA2_2011_VICTORIA20141020141707760</id>
+            <datasource>dbname='./STERA.sqlite' table="ABS_SA2_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Population Estimates</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression>COALESCE( "SA2_NAME_2011", '&lt;NULL>' )</previewExpression>
+            <vectorjoins>
+                <join joinFieldName="SA2_CODE" targetFieldName="SA2_MAINCODE_2011" memoryCache="1" joinLayerId="NEXIS_VIC_SA2_Residential20141020140202542"/>
+            </vectorjoins>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="192,239,4,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="true"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="NEXIS_VIC_SA2_Residential_POPULATION ESTIMATE"/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8.25"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>50</layerTransparency>
+            <displayfield>SA2_NAME_2011</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_MAINCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_5DIGITCODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA2_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA3_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA3_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA4_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SA4_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GCCSA_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GCCSA_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_CODE_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_SA2_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_POPULATION ESTIMATE">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_TOTAL NUMBER OF DWELLINGS">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_TOTAL NUMBER OF BUILDINGS">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF SEPARATE HOUSES">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF SEMI_DETACHED HOUSES">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF 2 STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF 3 STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF 4 PLUS STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS PRE 1980">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS POST 1981">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH UNKNOWN AGE">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH WALLS BRICK VENEER">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH WALLS DOUBLE BRICK">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH WALLS CONCRETE FRAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH WALLS TIMBER">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH WALLS FIBRO">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH ROOF TYPE TILES">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH ROOF TYPE METAL">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NUMBER OF BUILDINGS WITH ROOF TYPE FIBRO">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_TOTAL STRUCTURAL VALUE">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_TOTAL CONTENTS VALUE">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_TOTAL RESIDENTIAL FOOTPRINT (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_FLOOR AREA OF SEPARATE HOUSES (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_FLOOR AREA OF SEMI_DETACHED HOUSES (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_FLOOR AREA OF 2 STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_FLOOR AREA OF 3 STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_FLOOR AREA OF 4 PLUS STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NIL GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_LOW GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_MIDDLE GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_HIGH GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NIL EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_LOW EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_MIDDLE EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_HIGH EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_OWN TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_RENT PRIVATE TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_RENT PUBLIC TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_OTHER TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NO MOTOR VEHICLE ACCESS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_PERSONS AGED LESS THAN 5 YEARS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_PERSONS AGED 65 YEARS AND OVER %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_ONE PARENT FAMLIES %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NEED FOR ASSISTANCE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_INSUFFICIENT ENGLISH %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_NO YEAR 12 QUALIFICATION %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_VOLUNTEERING %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_MOVED RESIDENCE IN THE LAST YEAR %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_MOVED RESIDENCE IN THE LAST 5 YEARS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEXIS_VIC_SA2_Residential_field_52">
+                    <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>NEXIS_VIC_SA2_Residential20141020140202542</id>
+            <datasource>dbname='./STERA.sqlite' table="NEXIS_VIC_SA2_Residential" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>NEXIS_VIC_SA2_Residential</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <edittypes>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SA2_CODE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SA2_NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="POPULATION ESTIMATE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="TOTAL NUMBER OF DWELLINGS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="TOTAL NUMBER OF BUILDINGS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF SEPARATE HOUSES">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF SEMI_DETACHED HOUSES">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF 2 STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF 3 STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF 4 PLUS STOREY APARTMENTS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS PRE 1980">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS POST 1981">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH UNKNOWN AGE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH WALLS BRICK VENEER">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH WALLS DOUBLE BRICK">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH WALLS CONCRETE FRAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH WALLS TIMBER">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH WALLS FIBRO">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH ROOF TYPE TILES">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH ROOF TYPE METAL">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NUMBER OF BUILDINGS WITH ROOF TYPE FIBRO">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="TOTAL STRUCTURAL VALUE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="TOTAL CONTENTS VALUE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="TOTAL RESIDENTIAL FOOTPRINT (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FLOOR AREA OF SEPARATE HOUSES (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FLOOR AREA OF SEMI_DETACHED HOUSES (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FLOOR AREA OF 2 STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FLOOR AREA OF 3 STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="FLOOR AREA OF 4 PLUS STOREY APARTMENTS (m2)">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NIL GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LOW GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="MIDDLE GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="HIGH GROSS INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NIL EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="LOW EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="MIDDLE EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="HIGH EQUIVILISED INCOME %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OWN TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="RENT PRIVATE TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="RENT PUBLIC TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OTHER TENURE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NO MOTOR VEHICLE ACCESS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="PERSONS AGED LESS THAN 5 YEARS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="PERSONS AGED 65 YEARS AND OVER %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ONE PARENT FAMLIES %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NEED FOR ASSISTANCE %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="INSUFFICIENT ENGLISH %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NO YEAR 12 QUALIFICATION %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="VOLUNTEERING %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="MOVED RESIDENCE IN THE LAST YEAR %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="MOVED RESIDENCE IN THE LAST 5 YEARS %">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="field_52">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>People_under_5_or_over_85___age__copy20141020131419156</id>
+            <datasource>dbname='./STERA.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Population Density</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">spatialite</provider>
+            <previewExpression>COALESCE( "SA2_NAME_2011", '&lt;NULL>' )</previewExpression>
+            <vectorjoins>
+                <join joinFieldName="region_id" targetFieldName="SA1_7DIGITCODE_2011" memoryCache="1" joinLayerId="ABS_Census_B01_VIC_SA120141017150151443"/>
+            </vectorjoins>
+            <renderer-v2 attr="round(toreal( coalesce(ABS_Census_B01_VIC_SA1_Total_Persons_Persons,0))/(AREA_ALBERS_SQM/1000),1)" symbollevels="0" type="graduatedSymbol">
+                <ranges>
+                    <range symbol="0" lower="0.000000" upper="0.500000" label="0.0000 - 0.5000"/>
+                    <range symbol="1" lower="0.500000" upper="1.800000" label="0.5000 - 1.8000"/>
+                    <range symbol="2" lower="1.800000" upper="2.600000" label="1.8000 - 2.6000"/>
+                    <range symbol="3" lower="2.600000" upper="3.400000" label="2.6000 - 3.4000"/>
+                    <range symbol="4" lower="3.400000" upper="158.800000" label="3.4000 - 158.8000"/>
+                </ranges>
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="254,240,217,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="253,204,138,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="252,141,89,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="3">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="227,74,51,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="4">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="179,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <source-symbol>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="126,170,68,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="254,240,217,255"/>
+                    <prop k="color2" v="179,0,0,255"/>
+                    <prop k="discrete" v="0"/>
+                    <prop k="stops" v="0.25;253,204,138,255:0.5;252,141,89,255:0.75;227,74,51,255"/>
+                </colorramp>
+                <invertedcolorramp value="0"/>
+                <mode name="quantile"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8.25"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>40</layerTransparency>
             <displayfield>SA2_NAME_2011</displayfield>
             <label>0</label>
             <labelattributes>
@@ -17587,8 +18924,12 @@
                 <value>vmtrans_road20140923161414867</value>
                 <value>vmtrans_road_infrastructure20140923155442253</value>
                 <value>vmveg_tree_density_simplified20141016144101861</value>
+                <value>People_under_5_or_over_85___age__copy20141020131419156</value>
+                <value>ABS_SA2_2011_VICTORIA20141020141707760</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
+                <value>enabled</value>
+                <value>enabled</value>
                 <value>enabled</value>
                 <value>enabled</value>
                 <value>enabled</value>
@@ -17676,6 +19017,8 @@
                 <value>0</value>
                 <value>0</value>
                 <value>0</value>
+                <value>0</value>
+                <value>0</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
                 <value>to_vertex</value>
@@ -17720,8 +19063,12 @@
                 <value>to_vertex</value>
                 <value>to_vertex</value>
                 <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
             </LayerSnapToList>
             <LayerSnappingToleranceList type="QStringList">
+                <value>0.000000</value>
+                <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
