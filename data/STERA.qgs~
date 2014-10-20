@@ -3,7 +3,138 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Base">
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Infrastructure">
+            <customproperties/>
+            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Transport">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_road20140923161414867" name="Roads">
+                    <customproperties>
+                        <property key="showFeatureCount" value="0"/>
+                    </customproperties>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_road_infrastructure20140923155442253" name="Road Infrastructure">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_rail20140923155447596" name="Railways">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_rail_infrastructure20140923155448406" name="Railway Infrastructure">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_airport20140923123604979" name="Airports">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_helipad20140923133841831" name="Helipads">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Water">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_point20140923145058761" name="Water Structure Points">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_line20140923145058612" name="Water Structure Lines">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_area_polygon20140923145058588" name="Water Structure Areas">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Power">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924120239805" name="Power Facility Points">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924120610971" name="Power Facility Areas">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_line20140924120610997" name="Power Facility Lines">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Communication">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924122744346" name="Comunication Infrastructure">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Emergency Response Capacity">
+            <customproperties/>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Emergency Service">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924125109192" name="Emergency Facilities and Defence">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924125109230" name="Emergency Facilities and Defence">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Emergency Service Communication">
+                <customproperties/>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Health Service">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924130208037" name="Hospitals and Health Centres">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Hazardous Material">
+            <customproperties/>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Hazardous Material Sites">
+                <customproperties/>
+            </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Consequences">
+            <customproperties/>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="People Consequences">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141645229" name="Daytime Social Infratucture">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Places of Worship">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141422399" name="Education Facilities">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924131849753" name="Care Facilities">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Economic Consequences">
+                <customproperties/>
+            </layer-tree-group>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Enviromental Consequences">
+                <customproperties/>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Administration Consequences">
+                <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924142359841" name="Administration Facilities">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Social Setting Consequences 1">
+                <customproperties/>
+            </layer-tree-group>
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Social Setting Consequences 2">
+                <customproperties/>
+            </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Demographic Social Vulnerability Indicators">
+            <customproperties/>
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ABS_SA1_2011_VICTORIA20141017145618402" name="People under 5 or over 85 (%age)">
+                <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="ABS data">
+                <customproperties/>
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B01_VIC_SA120141017150151443" name="ABS_Census_B01_VIC_SA1">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Base">
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <customproperties/>
@@ -66,137 +197,6 @@
                 <customproperties/>
             </layer-tree-group>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Infrastructure">
-            <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Transport">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_road20140923161414867" name="Roads">
-                    <customproperties>
-                        <property key="showFeatureCount" value="0"/>
-                    </customproperties>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_road_infrastructure20140923155442253" name="Road Infrastructure">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_rail20140923155447596" name="Railways">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_rail_infrastructure20140923155448406" name="Railway Infrastructure">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_airport20140923123604979" name="Airports">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_helipad20140923133841831" name="Hellipads">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Water">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_point20140923145058761" name="Water Structure Points">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_line20140923145058612" name="Water Structure Lines">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmhydro_hy_water_struct_area_polygon20140923145058588" name="Water Structure Areas">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Power">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924120239805" name="Power Facility Points">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924120610971" name="Power Facility Areas">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_line20140924120610997" name="Power Facilitys Lines">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Communication">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924122744346" name="Comunication Infrastructure">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-        </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Emergency Response Capacity">
-            <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Emergency Service">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924125109192" name="Emergency Facilities and Defence">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_polygon20140924125109230" name="Emergency Facilities and Defence">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Emergency Service Communication">
-                <customproperties/>
-            </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Health Service">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924130208037" name="Hospitals and Health Centres">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-        </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Hazardous Material">
-            <customproperties/>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Hazardous Material Sites">
-                <customproperties/>
-            </layer-tree-group>
-        </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Consequences">
-            <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="People Consequences">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141645229" name="Daytime Social Infratucture">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141536738" name="Places of Worship">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924141422399" name="Education Facilities">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924131849753" name="Care Facilities">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Economic Consequences">
-                <customproperties/>
-            </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Enviromental Consequences">
-                <customproperties/>
-            </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Administration Consequences">
-                <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924142359841" name="Administration Facilities">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Social Setting Consequences 1">
-                <customproperties/>
-            </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Social Setting Consequences 2">
-                <customproperties/>
-            </layer-tree-group>
-        </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Demographic Social Vulnerability Indicators">
-            <customproperties/>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ABS_SA1_2011_VICTORIA20141017145618402" name="People under 5 or over 85 (%age)">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="ABS data">
-                <customproperties/>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B01_VIC_SA120141017150151443" name="ABS_Census_B01_VIC_SA1">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-        </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="Vicmap Lite">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_road20140923143914125" name="Roads">
@@ -244,7 +244,10 @@
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_airport20140923123604979"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141645229"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_point20140923145058761"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_built_up_area20140922160231458"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_area_polygon20140923145058588"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924125109192"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmelev_contour20140929133949283"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_helipad20140923133841831"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_rail20140923155447596"/>
@@ -255,8 +258,10 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016125622373"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20141017145618402"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_dense20140929131110955"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_line20140924120610997"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_vicgov_region20140923141628514"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_scattered20140929124210299"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_polygon20140924125109230"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_road20140923161414867"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="emv_region20141016164455632"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="EL_CONTOUR_1TO5M20140929132315041"/>
@@ -264,6 +269,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016121619863"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_medium20140929124236014"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_dense20140929123031400"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_polygon20140924120610971"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016114408702"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_watercourse20140923145058856"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924142359841"/>
@@ -275,10 +281,14 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924131849753"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016124017960"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_public_land20140923133842359"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924120239805"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="emv_region20141016164152770"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_watercourse20140922160232562"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924130208037"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141422399"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="EL_CONTOUR20140929132524649"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_line20140923145058612"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924122744346"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_area_polygon20140923145057363"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_waterbodies20140922160232335"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016124854261"/>
@@ -335,7 +345,156 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Base">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Infrastructure">
+            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Transport">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_road20140923161414867" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Road Infrastructure" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_road_infrastructure20140923155442253" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railways" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_rail20140923155447596" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railway Infrastructure" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_rail_infrastructure20140923155448406" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Airports" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_airport20140923123604979" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Helipads" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_helipad20140923133841831" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Water">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Points" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_point20140923145058761" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Lines" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_line20140923145058612" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Areas" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_area_polygon20140923145058588" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Power">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Points" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924120239805" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Areas" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924120610971" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Lines" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_line20140924120610997" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Communication">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Comunication Infrastructure" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924122744346" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Emergency Response Capacity">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Emergency Service">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924125109192" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924125109230" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Emergency Service Communication"/>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Health Service">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Hospitals and Health Centres" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924130208037" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Hazardous Material">
+            <legendgroup open="true" checked="Qt::Unchecked" name="Hazardous Material Sites"/>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Consequences">
+            <legendgroup open="false" checked="Qt::Unchecked" name="People Consequences">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Daytime Social Infratucture" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141645229" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Places of Worship" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141536738" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Education Facilities" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141422399" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Care Facilities" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924131849753" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Economic Consequences"/>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Enviromental Consequences"/>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Public Administration Consequences">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Administration Facilities" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924142359841" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 1"/>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 2"/>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Demographic Social Vulnerability Indicators">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="People under 5 or over 85 (%age)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ABS_SA1_2011_VICTORIA20141017145618402" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendgroup open="false" checked="Qt::Unchecked" name="ABS data">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B01_VIC_SA1" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B01_VIC_SA120141017150151443" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Base">
             <legendgroup open="false" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EMV Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
@@ -427,155 +586,6 @@
             </legendgroup>
             <legendgroup open="true" checked="Qt::Unchecked" name="Other Features"/>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Infrastructure">
-            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Transport">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_road20140923161414867" visible="1"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Road Infrastructure" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_road_infrastructure20140923155442253" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railways" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_rail20140923155447596" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railway Infrastructure" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_rail_infrastructure20140923155448406" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Airports" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmlite_airport20140923123604979" visible="1"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Hellipads" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_helipad20140923133841831" visible="1"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Water">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Points" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_point20140923145058761" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Lines" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_line20140923145058612" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Water Structure Areas" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmhydro_hy_water_struct_area_polygon20140923145058588" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Power">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Points" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924120239805" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facility Areas" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924120610971" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Power Facilitys Lines" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_line20140924120610997" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Communication">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Comunication Infrastructure" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924122744346" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Emergency Response Capacity">
-            <legendgroup open="false" checked="Qt::Unchecked" name="Emergency Service">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924125109192" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Emergency Facilities and Defence" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_polygon20140924125109230" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Emergency Service Communication"/>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Health Service">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Hospitals and Health Centres" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924130208037" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Hazardous Material">
-            <legendgroup open="true" checked="Qt::Unchecked" name="Hazardous Material Sites"/>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Consequences">
-            <legendgroup open="false" checked="Qt::Unchecked" name="People Consequences">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Daytime Social Infratucture" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141645229" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Places of Worship" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141536738" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Education Facilities" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924141422399" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Care Facilities" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924131849753" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Economic Consequences"/>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Enviromental Consequences"/>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Public Administration Consequences">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Administration Facilities" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924142359841" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 1"/>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Social Setting Consequences 2"/>
-        </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Demographic Social Vulnerability Indicators">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="People under 5 or over 85 (%age)" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="ABS_SA1_2011_VICTORIA20141017145618402" visible="0"/>
-                </filegroup>
-            </legendlayer>
-            <legendgroup open="false" checked="Qt::Unchecked" name="ABS data">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B01_VIC_SA1" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B01_VIC_SA120141017150151443" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-        </legendgroup>
         <legendgroup open="true" checked="Qt::Checked" name="Vicmap Lite">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -636,341 +646,341 @@
             <previewExpression></previewExpression>
             <vectorjoins/>
             <edittypes>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="OGC_FID">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="region_id">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="region_id">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Total_Persons_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Total_Persons_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Total_Persons_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Total_Persons_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Total_Persons_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Total_Persons_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_0_4_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_0_4_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_0_4_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_0_4_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_0_4_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_0_4_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_5_14_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_5_14_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_5_14_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_5_14_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_5_14_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_5_14_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_15_19_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_15_19_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_15_19_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_15_19_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_15_19_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_15_19_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_20_24_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_20_24_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_20_24_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_20_24_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_20_24_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_20_24_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_25_34_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_25_34_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_25_34_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_25_34_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_25_34_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_25_34_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_35_44_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_35_44_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_35_44_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_35_44_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_35_44_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_35_44_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_45_54_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_45_54_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_45_54_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_45_54_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_45_54_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_45_54_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_55_64_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_55_64_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_55_64_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_55_64_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_55_64_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_55_64_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_65_74_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_65_74_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_65_74_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_65_74_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_65_74_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_65_74_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_75_84_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_75_84_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_75_84_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_75_84_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_75_84_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_75_84_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_groups_85_years_and_over_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_At_home_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Counted_on_Census_Night_Elsewhere_in_Australia_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Aboriginal_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Torres_Strait_Islander_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Both_Aboriginal_and_Torres_Strait_Islander_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Indigenous_Persons_Total_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Australia_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Australia_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Australia_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Australia_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Australia_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Australia_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Birthplace_Elsewhere_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_English_only_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Language_spoken_at_home_Other_Language_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Australian_citizen_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Australian_citizen_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Australian_citizen_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Australian_citizen_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Australian_citizen_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Australian_citizen_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_0_4_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_5_14_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_15_19_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_20_24_years_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Age_of_Persons_attending_an_educational_institution_25_years_and_over_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_12_or_equivalent_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_11_or_equivalent_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_10_or_equivalent_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_9_or_equivalent_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Year_8_or_below_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Highest_year_of_school_completed_Did_not_go_to_school_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_occupied_private_dwellings_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Males">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Males">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Females">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Females">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Persons">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Count_of_Persons_in_other_dwellings_Persons">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1004,11 +1014,11 @@
             </vectorjoins>
             <renderer-v2 attr="case when &quot;ABS_Census_B01_VIC_SA1_Total_Persons_Persons&quot;=0 then 0 else round(toreal(&quot;ABS_Census_B01_VIC_SA1_Age_groups_0_4_years_Persons&quot;+&quot;ABS_Census_B01_VIC_SA1_Age_groups_85_years_and_over_Persons&quot;)/ABS_Census_B01_VIC_SA1_Total_Persons_Persons,3)*100 end" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="5.000000" label="0.0000 - 5.0000"/>
-                    <range symbol="1" lower="5.000000" upper="8.600000" label="5.0000 - 8.6000"/>
-                    <range symbol="2" lower="8.600000" upper="13.900000" label="8.6000 - 13.9000"/>
-                    <range symbol="3" lower="13.900000" upper="31.800000" label="13.9000 - 31.8000"/>
-                    <range symbol="4" lower="31.800000" upper="100.000000" label="31.8000 - 100.0000"/>
+                    <range symbol="0" lower="0.000000" upper="5.000000" label="0% - 5%"/>
+                    <range symbol="1" lower="5.000000" upper="10.000000" label="5% - 10%"/>
+                    <range symbol="2" lower="10.000000" upper="15.000000" label="10% - 15%"/>
+                    <range symbol="3" lower="15.000000" upper="25.000000" label="15% - 25%"/>
+                    <range symbol="4" lower="25.000000" upper="100.000000" label=">25%"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -1260,7 +1270,7 @@
             </customproperties>
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>33</layerTransparency>
+            <layerTransparency>66</layerTransparency>
             <displayfield>SA2_NAME_2011</displayfield>
             <label>0</label>
             <labelattributes>
@@ -1657,10 +1667,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -4792,7 +4802,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Power Facilitys Lines</layername>
+            <layername>Power Facility Lines</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -5912,7 +5922,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmfeat_foi_point20140924125109192</id>
             <datasource>dbname='./STERA.sqlite' table="vmfeat_foi_point" (GEOMETRY) sql="STATE" = 'VIC' AND "FEATURE_TYPE" IN ( 'defence site' , 'emergency facility' )</datasource>
             <title></title>
@@ -6288,7 +6298,7 @@
                 <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineAlign" value="1"/>
                 <property key="labeling/multilineHeight" value="1"/>
                 <property key="labeling/namedStyle" value="Normal"/>
                 <property key="labeling/obstacle" value="true"/>
@@ -6370,7 +6380,7 @@
                 <property key="labeling/textColorR" value="0"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/wrapChar" value=" "/>
                 <property key="labeling/xOffset" value="0"/>
                 <property key="labeling/yOffset" value="0"/>
             </customproperties>
@@ -11816,7 +11826,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmhydro_hy_water_struct_point20140923145058761</id>
             <datasource>dbname='./STERA.sqlite' table="vmhydro_hy_water_struct_point" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -15221,7 +15231,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Hellipads</layername>
+            <layername>Helipads</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -18230,6 +18240,7 @@
         </Gui>
         <Digitizing>
             <LayerSnappingList type="QStringList">
+                <value>ABS_SA1_2011_VICTORIA20141017145618402</value>
                 <value>emv_region20141016164455632</value>
                 <value>vmadmin_cfa_distict20140923141627898</value>
                 <value>vmadmin_cfa_region20140923141627933</value>
@@ -18274,7 +18285,6 @@
                 <value>vmtrans_road20140923161414867</value>
                 <value>vmtrans_road_infrastructure20140923155442253</value>
                 <value>vmveg_tree_density_simplified20141016144101861</value>
-                <value>ABS_SA1_2011_VICTORIA20141017145618402</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>enabled</value>

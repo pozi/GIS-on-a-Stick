@@ -75,7 +75,7 @@
             </layer-tree-group>
             <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Health Service">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmfeat_foi_point20140924130208037" name="Hospitals and Health Centres">
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmfeat_foi_point20140924130208037" name="Hospitals and Health Centres">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
@@ -138,7 +138,7 @@
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="emv_region20141016164455632" name="EMV Regions">
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="emv_region20141016164455632" name="EMV Regions">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_cma_region20140929135417187" name="CMA Regions">
@@ -193,30 +193,27 @@
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Other Features">
+            <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Lite">
                 <customproperties/>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_road20140923143914125" name="Roads">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_watercourse20140922160232562" name="Watercourses">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_waterbodies20140922160232335" name="Waterbodies">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_public_land20140923133842359" name="Public Land Use">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_built_up_area20140922160231458" name="Built up Areas">
+                    <customproperties/>
+                </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_victoria20140923123604951" name="Victoria">
+                    <customproperties/>
+                </layer-tree-layer>
             </layer-tree-group>
-        </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Vicmap Lite">
-            <customproperties/>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_road20140923143914125" name="Roads">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_watercourse20140922160232562" name="Watercourses">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_waterbodies20140922160232335" name="Waterbodies">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_public_land20140923133842359" name="Public Land Use">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_built_up_area20140922160231458" name="Built up Areas">
-                <customproperties/>
-            </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_victoria20140923123604951" name="Victoria">
-                <customproperties/>
-            </layer-tree-layer>
         </layer-tree-group>
     </layer-tree-group>
     <relations/>
@@ -244,6 +241,7 @@
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_airport20140923123604979"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141645229"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_township_polygon20140923141628458"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_point20140923145058761"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_built_up_area20140922160231458"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_area_polygon20140923145058588"/>
@@ -254,9 +252,12 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_road20140923143914125"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016122724604"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016122756422"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_point20140923145058179"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cma_region20140929135417187"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016125622373"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_region20140923141627933"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20141017145618402"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_tfb_district20140923141627964"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_dense20140929131110955"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_line20140924120610997"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_vicgov_region20140923141628514"/>
@@ -268,15 +269,20 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016121327149"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016121619863"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_medium20140929124236014"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_distict20140923141627898"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_dense20140929123031400"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_road_infrastructure20140923155442253"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_polygon20140924120610971"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016114408702"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_parish_polygon20140923141628240"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_watercourse20140923145058856"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924142359841"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_mfb_district20140923141628211"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_medium20140929131112182"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_scattered20140929131112210"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141536738"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_victoria20140923123604951"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_locality_polygon20140923141628122"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016144101861"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924131849753"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016124017960"/>
@@ -286,11 +292,14 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_watercourse20140922160232562"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924130208037"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924141422399"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_depi_region20140923141627993"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="EL_CONTOUR20140929132524649"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_line20140923145058612"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924122744346"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_area_polygon20140923145057363"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_waterbodies20140922160232335"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_lga_polygon20140923141628078"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_rail_infrastructure20140923155448406"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016124854261"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
@@ -435,8 +444,8 @@
             </legendgroup>
             <legendgroup open="true" checked="Qt::Unchecked" name="Emergency Service Communication"/>
             <legendgroup open="false" checked="Qt::Unchecked" name="Health Service">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Hospitals and Health Centres" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hospitals and Health Centres" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmfeat_foi_point20140924130208037" visible="0"/>
                     </filegroup>
                 </legendlayer>
@@ -496,8 +505,8 @@
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Base">
             <legendgroup open="false" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EMV Regions" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="EMV Regions" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="emv_region20141016164455632" visible="1"/>
                     </filegroup>
                 </legendlayer>
@@ -584,39 +593,38 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Unchecked" name="Other Features"/>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Vicmap Lite">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_road20140923143914125" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Watercourses" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_watercourse20140922160232562" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Waterbodies" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_waterbodies20140922160232335" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Public Land Use" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_public_land20140923133842359" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Built up Areas" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_built_up_area20140922160231458" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Victoria" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_victoria20140923123604951" visible="1"/>
-                </filegroup>
-            </legendlayer>
+            <legendgroup open="false" checked="Qt::Checked" name="Vicmap Lite">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_road20140923143914125" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Watercourses" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_watercourse20140922160232562" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Waterbodies" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_waterbodies20140922160232335" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Public Land Use" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_public_land20140923133842359" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Built up Areas" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_built_up_area20140922160231458" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Victoria" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmlite_victoria20140923123604951" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
         </legendgroup>
     </legend>
     <projectlayers layercount="46">
@@ -9296,7 +9304,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">spatialite</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 attr="FEATURE_SUBTYPE" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -12695,7 +12703,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">spatialite</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -15546,7 +15554,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">spatialite</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 attr="FEATURE_TYPE_CODE" symbollevels="0" type="categorizedSymbol">
                 <categories>
