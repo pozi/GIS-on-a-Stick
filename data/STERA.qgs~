@@ -21,10 +21,10 @@
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_rail_infrastructure20140923155448406" name="Railway Infrastructure">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmlite_airport20140923123604979" name="Airports">
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_airport20140923123604979" name="Airports">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_helipad20140923133841831" name="Helipads">
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_helipad20140923133841831" name="Helipads">
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
@@ -157,9 +157,9 @@
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Base">
             <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Administrative Boundaries">
+            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_vicgov_region20140923141628514" name="EMV Regions">
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmadmin_vicgov_region20140923141628514" name="EMV Regions">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_lga_polygon20140923141628078" name="Local Govenment Areas">
@@ -250,10 +250,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1960880.05482310336083174</xmin>
-            <ymin>2239654.70363111281767488</ymin>
-            <xmax>3021120.36102693807333708</xmax>
-            <ymax>2852356.38812076626345515</ymax>
+            <xmin>2105668.4368314971216023</xmin>
+            <ymin>2236969.97138607315719128</ymin>
+            <xmax>2981049.02370858332142234</xmax>
+            <ymax>2849671.65587515663355589</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -442,14 +442,14 @@
                         <legendlayerfile isInOverview="0" layerid="vmtrans_rail_infrastructure20140923155448406" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Airports" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Airports" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmlite_airport20140923123604979" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="vmlite_airport20140923123604979" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Helipads" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Helipads" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_helipad20140923133841831" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_helipad20140923133841831" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -611,10 +611,10 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Base">
-            <legendgroup open="false" checked="Qt::Unchecked" name="Administrative Boundaries">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EMV Regions" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EMV Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmadmin_vicgov_region20140923141628514" visible="0"/>
+                        <legendlayerfile isInOverview="0" layerid="vmadmin_vicgov_region20140923141628514" visible="1"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Local Govenment Areas" showFeatureCount="0">
@@ -16856,7 +16856,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1" maximumScale="100000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_airport20140923123604979</id>
             <datasource>dbname='./STERA.sqlite' table="vmlite_airport" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -19665,7 +19665,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1" maximumScale="100000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="1e+06" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_helipad20140923133841831</id>
             <datasource>dbname='./STERA.sqlite' table="vmtrans_helipad" (GEOMETRY) sql=</datasource>
             <title></title>

@@ -7,11 +7,6 @@
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Transport">
                 <customproperties/>
-                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_road20140923161414867" name="Roads">
-                    <customproperties>
-                        <property key="showFeatureCount" value="0"/>
-                    </customproperties>
-                </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmtrans_road_infrastructure20140923155442253" name="Road Infrastructure">
                     <customproperties/>
                 </layer-tree-layer>
@@ -213,6 +208,11 @@
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_road20140923143914125" name="Roads">
                     <customproperties/>
                 </layer-tree-layer>
+                <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmtrans_road20140923161414867" name="Roads (detailed)">
+                    <customproperties>
+                        <property key="showFeatureCount" value="0"/>
+                    </customproperties>
+                </layer-tree-layer>
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_watercourse20140922160232562" name="Watercourses">
                     <customproperties/>
                 </layer-tree-layer>
@@ -315,6 +315,7 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_distict20140923141627898"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_simplified20141016124854261"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4140" srcDatumTransform="-1" destDatumTransform="-1" layerid="tree_density_dense20140929123031400"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ABS_SA1_2011_VICTORIA20141021142241812"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="npi_chem_ex20141020154631866"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="emv_region20141016164455632"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_water_struct_line20140923145058612"/>
@@ -422,11 +423,6 @@
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Infrastructure">
             <legendgroup open="false" checked="Qt::PartiallyChecked" name="Transport">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="vmtrans_road20140923161414867" visible="1"/>
-                    </filegroup>
-                </legendlayer>
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Road Infrastructure" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmtrans_road_infrastructure20140923155442253" visible="0"/>
@@ -694,6 +690,11 @@
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmlite_road20140923143914125" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads (detailed)" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="vmtrans_road20140923161414867" visible="1"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Watercourses" showFeatureCount="0">
@@ -2835,13 +2836,14 @@
             <vectorjoins>
                 <join joinFieldName="region_id" targetFieldName="SA1_7DIGITCODE_2011" memoryCache="1" joinLayerId="ABS_Census_B01_VIC_SA120141017150151443"/>
             </vectorjoins>
-            <renderer-v2 attr="round(toreal( coalesce(ABS_Census_B01_VIC_SA1_Total_Persons_Persons,0))/(AREA_ALBERS_SQM/1000000),1)" symbollevels="0" type="graduatedSymbol">
+            <renderer-v2 attr="case when AREA_ALBERS_SQM=0 then 0.0 else round(toreal( coalesce(ABS_Census_B01_VIC_SA1_Total_Persons_Persons,0))/(toreal(AREA_ALBERS_SQM)/1000000),3) end" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="0.500000" label="0.0000 - 0.5000"/>
-                    <range symbol="1" lower="0.500000" upper="1.800000" label="0.5000 - 1.8000"/>
-                    <range symbol="2" lower="1.800000" upper="2.600000" label="1.8000 - 2.6000"/>
-                    <range symbol="3" lower="2.600000" upper="3.400000" label="2.6000 - 3.4000"/>
-                    <range symbol="4" lower="3.400000" upper="158.800000" label="3.4000 - 158.8000"/>
+                    <range symbol="0" lower="0.000000" upper="250.000000" label="&lt; 250 / km2"/>
+                    <range symbol="1" lower="250.000000" upper="1000.000000" label="250 - 1000 / km2"/>
+                    <range symbol="2" lower="1000.000000" upper="2000.000000" label="1000 - 2000 / km2"/>
+                    <range symbol="3" lower="2000.000000" upper="3000.000000" label="2000 - 3000 / km2"/>
+                    <range symbol="4" lower="3000.000000" upper="4000.000000" label="3000 - 4000 / km2"/>
+                    <range symbol="5" lower="4000.000000" upper="160000.000000" label="> 4000 / km2"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -2863,7 +2865,7 @@
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="253,204,138,255"/>
+                            <prop k="color" v="253,211,153,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -2878,7 +2880,7 @@
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="252,141,89,255"/>
+                            <prop k="color" v="252,166,108,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -2893,7 +2895,7 @@
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="227,74,51,255"/>
+                            <prop k="color" v="242,114,73,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -2905,6 +2907,21 @@
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="4">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="217,59,40,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="5">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
@@ -2974,7 +2991,7 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/enabled" value="false"/>
                 <property key="labeling/fieldName" value=""/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
@@ -18612,7 +18629,8 @@
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidInside" value="false"/>
                 <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefined/Show" value="1~~1~~&quot;CLASS_CODE&quot; &lt; 2~~CLASS_CODE"/>
+                <property key="labeling/dataDefined/MaxScale" value="1~~1~~case when &quot;CLASS_CODE&quot; &lt; 3 then 1000000 else 100000 end~~"/>
+                <property key="labeling/dataDefined/Show" value="1~~1~~&quot;CLASS_CODE&quot; &lt; 4~~CLASS_CODE"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
@@ -18644,7 +18662,7 @@
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="true"/>
+                <property key="labeling/limitNumLabels" value="false"/>
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
                 <property key="labeling/maxNumLabels" value="106"/>
@@ -21200,7 +21218,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1" maximumScale="100000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_road20140923161414867</id>
             <datasource>dbname='./STERA.sqlite' table="vmtrans_road" (GEOMETRY) sql="LEFT_LOCALITY" NOT LIKE  '%(NSW)%' and "LEFT_LOCALITY" NOT LIKE  '%(SA)%' </datasource>
             <title></title>
@@ -21208,7 +21226,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Roads</layername>
+            <layername>Roads (detailed)</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -21222,7 +21240,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">spatialite</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "EZI_ROAD_NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
@@ -21550,7 +21568,8 @@
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidInside" value="false"/>
                 <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefined/Show" value="1~~1~~&quot;CLASS_CODE&quot; &lt; 6~~CLASS_CODE"/>
+                <property key="labeling/dataDefined/MaxScale" value="1~~1~~case when  &quot;CLASS_CODE&quot; &lt; 5 then 25000 else 10000 end~~"/>
+                <property key="labeling/dataDefined/Show" value="0~~1~~&quot;CLASS_CODE&quot; &lt; 6~~CLASS_CODE"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
@@ -21582,10 +21601,10 @@
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="true"/>
+                <property key="labeling/limitNumLabels" value="false"/>
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="200"/>
+                <property key="labeling/maxNumLabels" value="1000"/>
                 <property key="labeling/mergeLines" value="true"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="1"/>
@@ -21606,7 +21625,7 @@
                 <property key="labeling/repeatDistanceUnit" value="1"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="1000000"/>
+                <property key="labeling/scaleMax" value="25000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/scaleVisibility" value="true"/>
                 <property key="labeling/shadowBlendMode" value="6"/>
