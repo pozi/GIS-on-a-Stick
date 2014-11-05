@@ -261,7 +261,7 @@
                     <customproperties/>
                 </layer-tree-layer>
             </layer-tree-group>
-            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="ABS / NEXIS tabular data">
+            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="ABS / NEXIS tabular data">
                 <customproperties/>
                 <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B01_VIC_SA120141017150151443" name="ABS_Census_B01_VIC_SA1">
                     <customproperties/>
@@ -269,13 +269,13 @@
                 <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B19_VIC_SA120141021155840979" name="ABS_Census_B19_VIC_SA1">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Checked" id="ABS_Census_B25_VIC_SA120141021160756288" name="ABS_Census_B25_VIC_SA1">
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B25_VIC_SA120141021160756288" name="ABS_Census_B25_VIC_SA1">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Checked" id="ABS_Census_B29_VIC_SA120141021161605876" name="ABS_Census_B29_VIC_SA1">
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B29_VIC_SA120141021161605876" name="ABS_Census_B29_VIC_SA1">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Checked" id="ABS_Census_B42B_VIC_SA120141021163517980" name="ABS_Census_B42B_VIC_SA1">
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ABS_Census_B42B_VIC_SA120141021163517980" name="ABS_Census_B42B_VIC_SA1">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="NEXIS_VIC_SA2_Residential20141020140202542" name="NEXIS_VIC_SA2_Residential">
@@ -842,7 +842,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::PartiallyChecked" name="ABS / NEXIS tabular data">
+            <legendgroup open="false" checked="Qt::Unchecked" name="ABS / NEXIS tabular data">
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B01_VIC_SA1" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="ABS_Census_B01_VIC_SA120141017150151443" visible="0"/>
@@ -853,19 +853,19 @@
                         <legendlayerfile isInOverview="0" layerid="ABS_Census_B19_VIC_SA120141021155840979" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ABS_Census_B25_VIC_SA1" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B25_VIC_SA1" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B25_VIC_SA120141021160756288" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B25_VIC_SA120141021160756288" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ABS_Census_B29_VIC_SA1" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B29_VIC_SA1" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B29_VIC_SA120141021161605876" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B29_VIC_SA120141021161605876" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ABS_Census_B42B_VIC_SA1" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ABS_Census_B42B_VIC_SA1" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B42B_VIC_SA120141021163517980" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ABS_Census_B42B_VIC_SA120141021163517980" visible="0"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="NEXIS_VIC_SA2_Residential" showFeatureCount="0">
@@ -22603,7 +22603,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="50000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmhydro_hy_watercourse20140923145058856</id>
             <datasource>dbname='./STERA.sqlite' table="vmhydro_hy_watercourse" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -22627,215 +22627,16 @@
             <provider encoding="System">spatialite</provider>
             <previewExpression></previewExpression>
             <vectorjoins/>
-            <renderer-v2 attr="FEATURE_TYPE_CODE" symbollevels="0" type="categorizedSymbol">
-                <categories>
-                    <category symbol="0" value="connector_channel" label="connector_channel"/>
-                    <category symbol="1" value="connector_channel_drain" label="connector_channel_drain"/>
-                    <category symbol="2" value="connector_drain" label="connector_drain"/>
-                    <category symbol="3" value="connector_river" label="connector_river"/>
-                    <category symbol="4" value="connector_stream" label="connector_stream"/>
-                    <category symbol="5" value="connector_structure" label="connector_structure"/>
-                    <category symbol="6" value="watercourse_channel" label="watercourse_channel"/>
-                    <category symbol="7" value="watercourse_channel_drain" label="watercourse_channel_drain"/>
-                    <category symbol="8" value="watercourse_drain" label="watercourse_drain"/>
-                    <category symbol="9" value="watercourse_river" label="watercourse_river"/>
-                    <category symbol="10" value="watercourse_stream" label="watercourse_stream"/>
-                </categories>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule scalemaxdenom="25000" filter=" &quot;FEATURE_TYPE_CODE&quot; &lt;> 'watercourse_river'" symbol="0" scalemindenom="500" label="other"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_TYPE_CODE&quot; = 'watercourse_river' " symbol="1" scalemindenom="1" label="river"/>
+                </rules>
                 <symbols>
-                    <symbol alpha="1" type="line" name="0">
+                    <symbol alpha="0.282353" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="4,90,141,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="1">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="18,108,158,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="10">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="222,224,238,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="2">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="32,126,176,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="3">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="49,142,191,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="4">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="76,153,197,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="5">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="102,163,203,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="6">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="129,174,210,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="7">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="155,186,216,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="8">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="182,198,223,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="9">
-                        <layer pass="1" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="0,0,255,255"/>
+                            <prop k="capstyle" v="round"/>
+                            <prop k="color" v="0,170,255,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
@@ -22846,42 +22647,31 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="width" v="0.4"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
-                </symbols>
-                <source-symbol>
-                    <symbol alpha="1" type="line" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
+                    <symbol alpha="0.698039" type="line" name="1">
+                        <layer pass="1" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="112,174,46,255"/>
+                            <prop k="color" v="0,170,255,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="joinstyle" v="round"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="width" v="0.4"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
-                </source-symbol>
-                <colorramp type="gradient" name="[source]">
-                    <prop k="color1" v="241,238,246,255"/>
-                    <prop k="color2" v="4,90,141,255"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="stops" v="0.25;189,201,225,255:0.5;116,169,207,255:0.75;43,140,190,255"/>
-                </colorramp>
-                <invertedcolorramp value="1"/>
-                <rotation/>
-                <sizescale scalemethod="area"/>
+                </symbols>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
