@@ -3,7 +3,7 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="sketch20141105153715771" name="Sketch">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="sketch20141105153715771" name="Sketch">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Infrastructure">
@@ -496,8 +496,8 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sketch" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Sketch" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="sketch20141105153715771" visible="1"/>
             </filegroup>
         </legendlayer>
