@@ -306,10 +306,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2105668.4368314971216023</xmin>
-            <ymin>2236969.97138607315719128</ymin>
-            <xmax>2981049.02370858332142234</xmax>
-            <ymax>2849671.65587515663355589</ymax>
+            <xmin>2537252.30972206778824329</xmin>
+            <ymin>2395605.39358995668590069</ymin>
+            <xmax>2541527.06943664327263832</xmax>
+            <ymax>2398053.58764959964901209</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -22857,35 +22857,46 @@
             <provider encoding="System">spatialite</provider>
             <previewExpression>COALESCE( "NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
-            <renderer-v2 attr="FEATURE_TYPE_CODE" symbollevels="0" type="categorizedSymbol">
-                <categories>
-                    <category symbol="0" value="dam_batter" label="dam_batter"/>
-                    <category symbol="1" value="marina" label="marina"/>
-                    <category symbol="2" value="spillway" label="spillway"/>
-                    <category symbol="3" value="tank_water" label="tank_water"/>
-                    <category symbol="4" value="" label=""/>
-                </categories>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule scalemaxdenom="2000000" symbol="0" scalemindenom="100000" label="All"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'tank_water'" symbol="1" scalemindenom="1" label="tank_water"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'spillway'" symbol="2" scalemindenom="1" label="spillway"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'dam_batter'" symbol="3" scalemindenom="1" label="dam_batter"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'marina'" symbol="4" scalemindenom="1" label="marina"/>
+                </rules>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="241,238,246,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="2"/>
+                        <layer pass="0" class="CentroidFill" locked="0">
+                            <prop k="point_on_surface" v="0"/>
+                            <symbol alpha="1" type="marker" name="@0@0">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="85,170,255,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="horizontal_anchor_point" v="1"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="offset_map_unit_scale" v="0,0"/>
+                                    <prop k="offset_unit" v="MM"/>
+                                    <prop k="outline_style" v="solid"/>
+                                    <prop k="outline_width" v="0"/>
+                                    <prop k="outline_width_map_unit_scale" v="0,0"/>
+                                    <prop k="outline_width_unit" v="MM"/>
+                                    <prop k="scale_method" v="area"/>
+                                    <prop k="size" v="3"/>
+                                    <prop k="size_map_unit_scale" v="0,0"/>
+                                    <prop k="size_unit" v="MM"/>
+                                    <prop k="vertical_anchor_point" v="1"/>
+                                </layer>
+                            </symbol>
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="189,201,225,255"/>
+                            <prop k="color" v="43,140,190,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -22893,7 +22904,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="2"/>
+                            <prop k="width_border" v="0.5"/>
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="2">
@@ -22908,14 +22919,14 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="2"/>
+                            <prop k="width_border" v="0.5"/>
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="43,140,190,255"/>
+                            <prop k="color" v="241,238,246,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -22923,14 +22934,14 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="2"/>
+                            <prop k="width_border" v="0.5"/>
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="fill" name="4">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="4,90,141,255"/>
+                            <prop k="color" v="189,201,225,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
@@ -22938,36 +22949,10 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="2"/>
+                            <prop k="width_border" v="0.5"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <source-symbol>
-                    <symbol alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="142,158,64,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </source-symbol>
-                <colorramp type="gradient" name="[source]">
-                    <prop k="color1" v="241,238,246,255"/>
-                    <prop k="color2" v="4,90,141,255"/>
-                    <prop k="discrete" v="0"/>
-                    <prop k="stops" v="0.25;189,201,225,255:0.5;116,169,207,255:0.75;43,140,190,255"/>
-                </colorramp>
-                <invertedcolorramp value="0"/>
-                <rotation/>
-                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -23115,7 +23100,7 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>NAME</displayfield>
+            <displayfield>FEATURE_TYPE_CODE</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
