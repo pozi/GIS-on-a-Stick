@@ -80,7 +80,7 @@
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Hazardous Material">
             <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Hazardous Material Sites">
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Hazardous Material Sites">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="npi_chem_ex20141020154631866" name="Chemical &amp; Explosives">
                     <customproperties/>
@@ -609,7 +609,7 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Hazardous Material">
-            <legendgroup open="false" checked="Qt::Unchecked" name="Hazardous Material Sites">
+            <legendgroup open="true" checked="Qt::Unchecked" name="Hazardous Material Sites">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Chemical &amp; Explosives" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="npi_chem_ex20141020154631866" visible="0"/>
@@ -21188,7 +21188,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmfeat_foi_polygon20140924120610971</id>
             <datasource>dbname='./STERA.sqlite' table="vmfeat_foi_polygon" (GEOMETRY) sql="STATE" = 'VIC' AND "FEATURE_TYPE" = 'power facility'  OR "STATE" = 'VIC' AND "FEATURE_TYPE" = 'pipeline facility'</datasource>
             <title></title>
@@ -21214,14 +21214,14 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; =  'coal power station' " symbol="0" scalemindenom="1" label="Coal Power Station"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'gas power station' " symbol="1" scalemindenom="1" label="Gas Power Station"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; = 'hydro power station' " symbol="2" scalemindenom="1" label="Hydro Power Station"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'biomass power station' " symbol="3" scalemindenom="1" label="Biomass Power Station"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; =  'treatment plant' " symbol="4" scalemindenom="1" label="Treatment Plant"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'sub station' " symbol="5" scalemindenom="1" label="Sub Station"/>
-                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'terminal station' " symbol="6" scalemindenom="1" label="Terminal Station"/>
-                    <rule scalemaxdenom="2500000" symbol="7" scalemindenom="1" label="All"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; =  'coal power station' " symbol="0" scalemindenom="1" label="coal power station"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'gas power station' " symbol="1" scalemindenom="1" label="gas power station"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; = 'hydro power station' " symbol="2" scalemindenom="1" label="hydro power station"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'biomass power station' " symbol="3" scalemindenom="1" label="biomass power station"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot; =  'treatment plant' " symbol="4" scalemindenom="1" label="treatment plant"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'sub station' " symbol="5" scalemindenom="1" label="sub station"/>
+                    <rule scalemaxdenom="1000000" filter=" &quot;FEATURE_SUBTYPE&quot;  =  'terminal station' " symbol="6" scalemindenom="1" label="terminal station"/>
+                    <rule scalemaxdenom="2500000" symbol="7" scalemindenom="1" label="all"/>
                 </rules>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -22833,7 +22833,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmhydro_hy_water_struct_area_polygon20140923145058588</id>
             <datasource>dbname='./STERA.sqlite' table="vmhydro_hy_water_struct_area_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -22859,17 +22859,77 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
-                    <rule scalemaxdenom="2000000" symbol="0" scalemindenom="100000" label="All"/>
-                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'tank_water'" symbol="1" scalemindenom="1" label="tank_water"/>
-                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'spillway'" symbol="2" scalemindenom="1" label="spillway"/>
-                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'dam_batter'" symbol="3" scalemindenom="1" label="dam_batter"/>
-                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'marina'" symbol="4" scalemindenom="1" label="marina"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'tank_water'" symbol="0" scalemindenom="1" label="tank_water"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'spillway'" symbol="1" scalemindenom="1" label="spillway"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'dam_batter'" symbol="2" scalemindenom="1" label="dam_batter"/>
+                    <rule scalemaxdenom="100000" filter="&quot;FEATURE_TYPE_CODE&quot; = 'marina'" symbol="3" scalemindenom="1" label="marina"/>
+                    <rule scalemaxdenom="2000000" symbol="4" scalemindenom="100000" label="All"/>
                 </rules>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="43,140,190,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="116,169,207,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="241,238,246,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="3">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="189,201,225,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="4">
                         <layer pass="0" class="CentroidFill" locked="0">
                             <prop k="point_on_surface" v="0"/>
-                            <symbol alpha="1" type="marker" name="@0@0">
+                            <symbol alpha="1" type="marker" name="@4@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="85,170,255,255"/>
@@ -22890,66 +22950,6 @@
                                     <prop k="vertical_anchor_point" v="1"/>
                                 </layer>
                             </symbol>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="fill" name="1">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="43,140,190,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.5"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="fill" name="2">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="116,169,207,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.5"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="fill" name="3">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="241,238,246,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.5"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="fill" name="4">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_map_unit_scale" v="0,0"/>
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="189,201,225,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.5"/>
                         </layer>
                     </symbol>
                 </symbols>
