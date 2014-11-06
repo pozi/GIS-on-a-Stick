@@ -3,7 +3,7 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="sketch20141105153715771" name="Sketch">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="sketch20141105153715771" name="Sketch">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Infrastructure">
@@ -196,7 +196,7 @@
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Base">
             <customproperties/>
-            <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
+            <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <customproperties/>
                 <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmadmin_vicgov_region20140923141628514" name="EMV Regions">
                     <customproperties/>
@@ -356,8 +356,8 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_cfa_tfb_district20140923141627964"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_mfb_district20140923141628211"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density_medium20140929131112182"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016122756422"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Community_Venues_copy20141106102053602"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmveg_tree_density20141016122756422"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924120239805"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_waterbodies20140922160232335"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmfeat_foi_point20140924122744346"/>
@@ -511,8 +511,8 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Sketch" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sketch" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="sketch20141105153715771" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -769,7 +769,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Base">
-            <legendgroup open="false" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
+            <legendgroup open="true" checked="Qt::PartiallyChecked" name="Administrative Boundaries">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EMV Regions" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="vmadmin_vicgov_region20140923141628514" visible="1"/>
@@ -6189,8 +6189,6 @@
                         </layer>
                     </symbol>
                 </source-symbol>
-                <colorramp type="randomcolors" name="[source]"/>
-                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -12867,10 +12865,10 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSize" value="1.5"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
@@ -12883,8 +12881,8 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="label"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -12893,7 +12891,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="8.25"/>
+                <property key="labeling/fontSize" value="10.25"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
                 <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -12902,7 +12900,7 @@
                 <property key="labeling/fontWeight" value="50"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/isExpression" value="false"/>
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
@@ -12914,7 +12912,7 @@
                 <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineAlign" value="1"/>
                 <property key="labeling/multilineHeight" value="1"/>
                 <property key="labeling/namedStyle" value="Normal"/>
                 <property key="labeling/obstacle" value="true"/>
@@ -12991,9 +12989,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorB" value="127"/>
                 <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorR" value="255"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -13003,7 +13001,7 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>pkuid</displayfield>
+            <displayfield>label</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -20536,8 +20534,6 @@
                         </layer>
                     </symbol>
                 </source-symbol>
-                <colorramp type="randomcolors" name="[source]"/>
-                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -20783,10 +20779,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -20932,8 +20928,6 @@
                         </layer>
                     </symbol>
                 </source-symbol>
-                <colorramp type="randomcolors" name="[source]"/>
-                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -21179,16 +21173,16 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmfeat_foi_polygon20140924120610971</id>
             <datasource>dbname='./STERA.sqlite' table="vmfeat_foi_polygon" (GEOMETRY) sql="STATE" = 'VIC' AND "FEATURE_TYPE" = 'power facility'  OR "STATE" = 'VIC' AND "FEATURE_TYPE" = 'pipeline facility'</datasource>
             <title></title>
@@ -21503,7 +21497,7 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>NAME</displayfield>
+            <displayfield>FEATURE_SUBTYPE</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
