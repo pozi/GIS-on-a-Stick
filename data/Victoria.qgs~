@@ -606,7 +606,7 @@
     <projectlayers layercount="56">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204105622183</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1297,7 +1297,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110219121</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1988,7 +1988,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110311704</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2493,7 +2493,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110429018</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3184,7 +3184,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110500580</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3895,7 +3895,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110540575</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4742,7 +4742,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110612618</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -5133,7 +5133,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204110851848</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_SA1_2011_VICTORIA" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -5840,7 +5840,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204111709634</id>
-            <datasource>dbname='./Vic.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql="LEFT_LOCALITY" NOT LIKE  '%(NSW)%' and "LEFT_LOCALITY" NOT LIKE  '%(SA)%' </datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_road" (GEOMETRY) sql="LEFT_LOCALITY" NOT LIKE  '%(NSW)%' and "LEFT_LOCALITY" NOT LIKE  '%(SA)%' </datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -6501,7 +6501,7 @@
         </maplayer>
         <maplayer minimumScale="25000" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204111922540</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_tr_road" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_road" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -7317,7 +7317,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+07" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204112403911</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_locality" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_locality" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -7576,7 +7576,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B01_VIC_SA120150204105419507</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_Census_B01_VIC_SA1" sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_Census_B01_VIC_SA1" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -7942,7 +7942,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B19_VIC_SA120150204105419601</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_Census_B19_VIC_SA1" sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_Census_B19_VIC_SA1" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -8344,7 +8344,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B25_VIC_SA120150204105419616</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_Census_B25_VIC_SA1" sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_Census_B25_VIC_SA1" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -8524,7 +8524,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B29_VIC_SA120150204105419644</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_Census_B29_VIC_SA1" sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_Census_B29_VIC_SA1" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -8590,7 +8590,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ABS_Census_B42B_VIC_SA120150204105419662</id>
-            <datasource>dbname='./Vic.sqlite' table="ABS_Census_B42B_VIC_SA1" sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="ABS_Census_B42B_VIC_SA1" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9112,7 +9112,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="2500" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadd_address20150204122320428</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadd_address" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadd_address" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9522,7 +9522,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_ad_locality_area_polygon20140312145319810</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_ad_locality_area_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_ad_locality_area_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9640,7 +9640,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_cfa_distict20140226115546858</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_cfa_distict" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_cfa_distict" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -9851,7 +9851,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_cfa_region20140225163711190</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_cfa_region" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_cfa_region" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10062,7 +10062,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_cfa_tfb_district20140226115530540</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_cfa_tfb_district" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_cfa_tfb_district" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10273,7 +10273,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_depi_region20140226115531164</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_depi_region" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_depi_region" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10487,7 +10487,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_lga_polygon20140226115540446</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_lga_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_lga_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10716,7 +10716,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_locality_polygon20140226115535126</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_locality_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_locality_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -10942,7 +10942,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_mfb_district20140226115540290</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_mfb_district" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_mfb_district" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11162,7 +11162,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_parish_polygon20140226115543535</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_parish_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_parish_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11385,7 +11385,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_postcode_polygon20140226115540992</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_postcode_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_postcode_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11605,7 +11605,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_state_council_200520140226115543207</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_state_council_2005" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_state_council_2005" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -11822,7 +11822,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_township_polygon20140226115543207</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_township_polygon" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_township_polygon" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12045,7 +12045,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_vicgov_region20140226115541632</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_vicgov_region" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_vicgov_region" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12262,7 +12262,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmadmin_ward_201220140226115354196</id>
-            <datasource>dbname='./Vic.sqlite' table="vmadmin_ward_2012" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_ward_2012" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12503,7 +12503,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="1e+06" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_built_up_area20140220114915017</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_built_up_area" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_built_up_area" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12745,7 +12745,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="100000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_forest_su520140220114915230</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_forest_su5" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_forest_su5" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -12962,7 +12962,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_geo_area_label20140220114915322</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_geo_area_label" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_geo_area_label" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -13188,7 +13188,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="100000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_geo_point_label20140220114915366</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_geo_point_label" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_geo_point_label" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -13420,7 +13420,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_hy_water_area20140220114915389</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_hy_water_area" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_hy_water_area" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -13643,7 +13643,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_hy_watercourse20140220114915453</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_hy_watercourse" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_hy_watercourse" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14001,7 +14001,7 @@
         </maplayer>
         <maplayer minimumScale="5000" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_lga20140220114915548</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_lga" (GEOMETRY) sql="STATE" = 'VIC' </datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_lga" (GEOMETRY) sql="STATE" = 'VIC' </datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14224,7 +14224,7 @@
         </maplayer>
         <maplayer minimumScale="10000" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_public_land_su520140220114915755</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_public_land_su5" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_public_land_su5" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14588,7 +14588,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="250000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_tr_airport20140220114915840</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_tr_airport" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_airport" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -14816,7 +14816,7 @@
         </maplayer>
         <maplayer minimumScale="5000" maximumScale="5e+06" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_tr_rail20140220114915878</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_tr_rail" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_rail" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15074,7 +15074,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="100000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_tr_rail_station20140220114915903</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_tr_rail_station" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_rail_station" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15325,7 +15325,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_tr_road20140224133054707</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_tr_road" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_tr_road" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15453,7 +15453,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_victoria_polygon_su520140220114916116</id>
-            <datasource>dbname='./Vic.sqlite' table="vmlite_victoria_polygon_su5" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmlite_victoria_polygon_su5" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15673,7 +15673,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmplan_plan_overlay20140226144908483</id>
-            <datasource>dbname='./Vic.sqlite' table="vmplan_plan_overlay" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmplan_plan_overlay" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -15902,7 +15902,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmplan_plan_uga20140226144909266</id>
-            <datasource>dbname='./Vic.sqlite' table="vmplan_plan_uga" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmplan_plan_uga" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -16131,7 +16131,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmplan_plan_ugb20140226144909323</id>
-            <datasource>dbname='./Vic.sqlite' table="vmplan_plan_ugb" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmplan_plan_ugb" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -16247,7 +16247,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmplan_plan_zone20140226144909341</id>
-            <datasource>dbname='./Vic.sqlite' table="vmplan_plan_zone" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmplan_plan_zone" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17223,7 +17223,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="5000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmprop_property_mp20140228103924267</id>
-            <datasource>dbname='./Vic.sqlite' table="vmprop_property_mp" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmprop_property_mp" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17482,7 +17482,7 @@
         </maplayer>
         <maplayer minimumScale="10000" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_1202_train_corr_centl20140305115831193</id>
-            <datasource>dbname='./Vic.sqlite' table="vmptv_rae_1202_train_corr_centl" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1202_train_corr_centl" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17706,7 +17706,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="5000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_1211_train_track_centl20140305115831567</id>
-            <datasource>dbname='./Vic.sqlite' table="vmptv_rae_1211_train_track_centl" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1211_train_track_centl" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17970,7 +17970,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_1229_rail_stat_platform20140305115833860</id>
-            <datasource>dbname='./Vic.sqlite' table="vmptv_rae_1229_rail_stat_platform" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1229_rail_stat_platform" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18193,7 +18193,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_895_stops_vicmap20140305115834063</id>
-            <datasource>dbname='./Vic.sqlite' table="vmptv_rae_895_stops_vicmap" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_895_stops_vicmap" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18428,7 +18428,7 @@
         </maplayer>
         <maplayer minimumScale="1" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmptv_rae_909_reg_bus_routes_vm20140305115836419</id>
-            <datasource>dbname='./Vic.sqlite' table="vmptv_rae_909_reg_bus_routes_vm" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_909_reg_bus_routes_vm" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18682,7 +18682,7 @@
         </maplayer>
         <maplayer minimumScale="5000" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_tr_rail20140303150307371</id>
-            <datasource>dbname='./Vic.sqlite' table="vmtrans_tr_rail" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_rail" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18942,7 +18942,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="5000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmtrans_tr_rail_infrastructure20140303150307563</id>
-            <datasource>dbname='./Vic.sqlite' table="vmtrans_tr_rail_infrastructure" (GEOMETRY) sql=</datasource>
+            <datasource>dbname='./Victoria.sqlite' table="vmtrans_tr_rail_infrastructure" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
