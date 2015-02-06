@@ -177,9 +177,6 @@
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_geo_area_label20140220114915322" name="Geo Area Label">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vmlite_built_up_area20140220114915017" name="Built Up Areas">
-                <customproperties/>
-            </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_hy_water_area20140220114915389" name="Water Areas">
                 <customproperties/>
             </layer-tree-layer>
@@ -187,6 +184,9 @@
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_forest_su520140220114915230" name="Forest ">
+                <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_built_up_area20140220114915017" name="Built Up Areas">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmlite_victoria_polygon_su520140220114916116" name="Victoria">
@@ -576,11 +576,6 @@
                     <legendlayerfile isInOverview="0" layerid="vmlite_geo_area_label20140220114915322" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Built Up Areas" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmlite_built_up_area20140220114915017" visible="1"/>
-                </filegroup>
-            </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Water Areas" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_hy_water_area20140220114915389" visible="1"/>
@@ -594,6 +589,11 @@
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Forest " showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmlite_forest_su520140220114915230" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Built Up Areas" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="vmlite_built_up_area20140220114915017" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Victoria" showFeatureCount="0">
@@ -12501,7 +12501,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="1" maximumScale="1e+06" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="1" maximumScale="1e+07" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmlite_built_up_area20140220114915017</id>
             <datasource>dbname='./Victoria.sqlite' table="vmlite_built_up_area" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
@@ -19274,6 +19274,7 @@
                 <value>20150204111709634</value>
                 <value>20150204111922540</value>
                 <value>20150204112403911</value>
+                <value>vmadd_address20150204122320428</value>
                 <value>vmadmin_ad_locality_area_polygon20140312145319810</value>
                 <value>vmadmin_cfa_distict20140226115546858</value>
                 <value>vmadmin_cfa_region20140225163711190</value>
@@ -19313,7 +19314,6 @@
                 <value>vmptv_rae_909_reg_bus_routes_vm20140305115836419</value>
                 <value>vmtrans_tr_rail20140303150307371</value>
                 <value>vmtrans_tr_rail_infrastructure20140303150307563</value>
-                <value>vmadd_address20150204122320428</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
