@@ -935,7 +935,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_OGC_FID">
@@ -1596,7 +1596,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_OGC_FID">
@@ -2257,7 +2257,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B25_VIC_SA1_OGC_FID">
@@ -2732,7 +2732,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_OGC_FID">
@@ -3377,7 +3377,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B19_VIC_SA1_OGC_FID">
@@ -4074,7 +4074,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B42B_VIC_SA1_OGC_FID">
@@ -4891,7 +4891,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B29_VIC_SA1_OGC_FID">
@@ -5268,7 +5268,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_NAME_2011">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA_ALBERS_SQKM">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ABS_Census_B01_VIC_SA1_OGC_FID">
@@ -7085,7 +7085,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+07" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+07" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>20150204112403911</id>
             <datasource>dbname='./Victoria.sqlite' table="vmlite_locality" (GEOMETRY) sql="STATE" = 'VIC'</datasource>
             <title></title>
@@ -7205,7 +7205,7 @@
                 <property key="labeling/plussign" value="false"/>
                 <property key="labeling/preserveRotation" value="true"/>
                 <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="2"/>
+                <property key="labeling/priority" value="8"/>
                 <property key="labeling/quadOffset" value="4"/>
                 <property key="labeling/repeatDistance" value="0"/>
                 <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -9141,10 +9141,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -10091,7 +10091,7 @@
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="OGC_FID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="SEGMENTNAME">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SEGMENTNAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
                 <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="UFI">
@@ -16347,7 +16347,7 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferDraw" value="true"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
                 <property key="labeling/bufferSize" value="1"/>
@@ -16363,8 +16363,8 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="NAME"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -16382,7 +16382,7 @@
                 <property key="labeling/fontWeight" value="50"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/isExpression" value="false"/>
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
@@ -16404,7 +16404,7 @@
                 <property key="labeling/plussign" value="false"/>
                 <property key="labeling/preserveRotation" value="true"/>
                 <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
+                <property key="labeling/priority" value="6"/>
                 <property key="labeling/quadOffset" value="4"/>
                 <property key="labeling/repeatDistance" value="0"/>
                 <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -16471,9 +16471,9 @@
                 <property key="labeling/shapeTransparency" value="0"/>
                 <property key="labeling/shapeType" value="0"/>
                 <property key="labeling/textColorA" value="255"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textColorB" value="126"/>
+                <property key="labeling/textColorG" value="126"/>
+                <property key="labeling/textColorR" value="126"/>
                 <property key="labeling/textTransp" value="0"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
@@ -19288,6 +19288,12 @@
                 <value>20150204111709634</value>
                 <value>20150204111922540</value>
                 <value>20150204112403911</value>
+                <value>ptv_bus_route_metro20150208134733978</value>
+                <value>ptv_bus_route_regional20140305115836419</value>
+                <value>ptv_bus_stop20140305115834063</value>
+                <value>ptv_train_corridor_centreline20140305115831193</value>
+                <value>ptv_train_corridor_centreline20140305115831567</value>
+                <value>ptv_train_station_platform20140305115833860</value>
                 <value>vmadd_address20150204122320428</value>
                 <value>vmadmin_ad_locality_area_polygon20140312145319810</value>
                 <value>vmadmin_cfa_distict20140226115546858</value>
@@ -19321,15 +19327,11 @@
                 <value>vmplan_plan_ugb20140226144909323</value>
                 <value>vmplan_plan_zone20140226144909341</value>
                 <value>vmprop_property_mp20140228103924267</value>
-                <value>ptv_train_corridor_centreline20140305115831193</value>
-                <value>ptv_train_corridor_centreline20140305115831567</value>
-                <value>ptv_train_station_platform20140305115833860</value>
-                <value>ptv_bus_stop20140305115834063</value>
-                <value>ptv_bus_route_regional20140305115836419</value>
                 <value>vmtrans_tr_rail20140303150307371</value>
                 <value>vmtrans_tr_rail_infrastructure20140303150307563</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
+                <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
@@ -19435,6 +19437,7 @@
                 <value>0</value>
                 <value>0</value>
                 <value>0</value>
+                <value>0</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
                 <value>to_vertex_and_segment</value>
@@ -19488,8 +19491,10 @@
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
+                <value>to_vertex_and_segment</value>
             </LayerSnapToList>
             <LayerSnappingToleranceList type="QStringList">
+                <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
