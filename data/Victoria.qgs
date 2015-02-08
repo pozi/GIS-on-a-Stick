@@ -47,21 +47,21 @@
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Public Transport Victoria">
             <customproperties/>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_1202_train_corr_centl20140305115831193" name="Train Corridors">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ptv_train_corridor_centreline20140305115831193" name="Train Corridors">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_1211_train_track_centl20140305115831567" name="Train Tracks">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ptv_train_corridor_centreline20140305115831567" name="Train Tracks">
                 <customproperties>
                     <property key="overview" value="1"/>
                 </customproperties>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_1229_rail_stat_platform20140305115833860" name="Railway Station Platforms">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ptv_train_station_platform20140305115833860" name="Railway Station Platforms">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_895_stops_vicmap20140305115834063" name="Bus Stops">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ptv_bus_stop20140305115834063" name="Bus Stops">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmptv_rae_909_reg_bus_routes_vm20140305115836419" name="Bus Routes">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ptv_bus_route_regional20140305115836419" name="Bus Routes">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -231,9 +231,9 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110500580"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110429018"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204111709634"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ptv_bus_route_regional20140305115836419"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadd_address20150204122320428"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1211_train_track_centl20140305115831567"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ptv_train_corridor_centreline20140305115831567"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmprop_property_mp20140228103924267"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail_infrastructure20140303150307563"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_airport20140220114915840"/>
@@ -246,12 +246,12 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204111922540"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_forest_su520140220114915230"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_road20140224133111812"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ptv_train_station_platform20140305115833860"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_hy_watercourse20140220114915453"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_area_label20140220114915322"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110540575"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_1202_train_corr_centl20140305115831193"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmptv_rae_895_stops_vicmap20140305115834063"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ptv_train_corridor_centreline20140305115831193"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ptv_bus_stop20140305115834063"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204105622183"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_vicgov_region20140226115541632"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110311704"/>
@@ -259,11 +259,11 @@
     </mapcanvas>
     <layer-tree-canvas>
         <custom-order enabled="0">
-            <item>vmptv_rae_1202_train_corr_centl20140305115831193</item>
-            <item>vmptv_rae_1211_train_track_centl20140305115831567</item>
-            <item>vmptv_rae_895_stops_vicmap20140305115834063</item>
-            <item>vmptv_rae_909_reg_bus_routes_vm20140305115836419</item>
-            <item>vmptv_rae_1229_rail_stat_platform20140305115833860</item>
+            <item>ptv_train_corridor_centreline20140305115831193</item>
+            <item>ptv_train_corridor_centreline20140305115831567</item>
+            <item>ptv_bus_stop20140305115834063</item>
+            <item>ptv_bus_route_regional20140305115836419</item>
+            <item>ptv_train_station_platform20140305115833860</item>
             <item>vmadmin_cfa_region20140225163711190</item>
             <item>vmadmin_vicgov_region20140226115541632</item>
             <item>vmadmin_cfa_distict20140226115546858</item>
@@ -386,27 +386,27 @@
         <legendgroup open="false" checked="Qt::Unchecked" name="Public Transport Victoria">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Train Corridors" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1202_train_corr_centl20140305115831193" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="ptv_train_corridor_centreline20140305115831193" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Train Tracks" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="1" layerid="vmptv_rae_1211_train_track_centl20140305115831567" visible="0"/>
+                    <legendlayerfile isInOverview="1" layerid="ptv_train_corridor_centreline20140305115831567" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Railway Station Platforms" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_1229_rail_stat_platform20140305115833860" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="ptv_train_station_platform20140305115833860" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Stops" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_895_stops_vicmap20140305115834063" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="ptv_bus_stop20140305115834063" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Bus Routes" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmptv_rae_909_reg_bus_routes_vm20140305115836419" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="ptv_bus_route_regional20140305115836419" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -17481,8 +17481,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="10000" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmptv_rae_1202_train_corr_centl20140305115831193</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1202_train_corr_centl" (GEOMETRY) sql=</datasource>
+            <id>ptv_train_corridor_centreline20140305115831193</id>
+            <datasource>dbname='./Victoria.sqlite' table="ptv_train_corridor_centreline" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17705,8 +17705,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="1" maximumScale="5000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmptv_rae_1211_train_track_centl20140305115831567</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1211_train_track_centl" (GEOMETRY) sql=</datasource>
+            <id>ptv_train_corridor_centreline20140305115831567</id>
+            <datasource>dbname='./Victoria.sqlite' table="ptv_train_corridor_centreline" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -17969,8 +17969,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="1" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmptv_rae_1229_rail_stat_platform20140305115833860</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_1229_rail_stat_platform" (GEOMETRY) sql=</datasource>
+            <id>ptv_train_station_platform20140305115833860</id>
+            <datasource>dbname='./Victoria.sqlite' table="ptv_train_station_platform" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18192,8 +18192,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="1" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmptv_rae_895_stops_vicmap20140305115834063</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_895_stops_vicmap" (GEOMETRY) sql=</datasource>
+            <id>ptv_bus_stop20140305115834063</id>
+            <datasource>dbname='./Victoria.sqlite' table="ptv_bus_stop" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -18427,8 +18427,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="1" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmptv_rae_909_reg_bus_routes_vm20140305115836419</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmptv_rae_909_reg_bus_routes_vm" (GEOMETRY) sql=</datasource>
+            <id>ptv_bus_route_regional20140305115836419</id>
+            <datasource>dbname='./Victoria.sqlite' table="ptv_bus_route_regional" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -19307,11 +19307,11 @@
                 <value>vmplan_plan_ugb20140226144909323</value>
                 <value>vmplan_plan_zone20140226144909341</value>
                 <value>vmprop_property_mp20140228103924267</value>
-                <value>vmptv_rae_1202_train_corr_centl20140305115831193</value>
-                <value>vmptv_rae_1211_train_track_centl20140305115831567</value>
-                <value>vmptv_rae_1229_rail_stat_platform20140305115833860</value>
-                <value>vmptv_rae_895_stops_vicmap20140305115834063</value>
-                <value>vmptv_rae_909_reg_bus_routes_vm20140305115836419</value>
+                <value>ptv_train_corridor_centreline20140305115831193</value>
+                <value>ptv_train_corridor_centreline20140305115831567</value>
+                <value>ptv_train_station_platform20140305115833860</value>
+                <value>ptv_bus_stop20140305115834063</value>
+                <value>ptv_bus_route_regional20140305115836419</value>
                 <value>vmtrans_tr_rail20140303150307371</value>
                 <value>vmtrans_tr_rail_infrastructure20140303150307563</value>
             </LayerSnappingList>
