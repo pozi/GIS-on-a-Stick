@@ -4958,7 +4958,7 @@
                 <join joinFieldName="region_id" targetFieldName="SA1_7DIGITCODE_2011" memoryCache="0" joinLayerId="ABS_Census_B01_VIC_SA120141017150151443"/>
                 <join joinFieldName="region_id" targetFieldName="SA1_7DIGITCODE_2011" memoryCache="1" joinLayerId="ABS_Census_B01_VIC_SA120150204105419507"/>
             </vectorjoins>
-            <renderer-v2 attr="case when AREA_ALBERS_SQM=0 then 0.0 else round(toreal( coalesce(ABS_Census_B01_VIC_SA1_Total_Persons_Persons,0))/(toreal(AREA_ALBERS_SQM)/1000000),3) end" symbollevels="0" type="graduatedSymbol">
+            <renderer-v2 attr="case when AREA_ALBERS_SQKM=0 then 0.0 else round(toreal( coalesce(ABS_Census_B01_VIC_SA1_Total_Persons_Persons,0))/(toreal(AREA_ALBERS_SQKM)),3) end" symbollevels="0" type="graduatedSymbol">
                 <ranges>
                     <range symbol="0" lower="0.000000" upper="250.000000" label="&lt; 250 / km2"/>
                     <range symbol="1" lower="250.000000" upper="1000.000000" label="250 - 1000 / km2"/>
