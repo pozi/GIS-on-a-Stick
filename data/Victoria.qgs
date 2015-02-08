@@ -105,7 +105,7 @@
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_mfb_district20140226115540290" name="MFB Districts">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_state_council_200520140226115543207" name="State Councils 2005">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_state_council_201320140226115543207" name="State Councils 2013">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="vmadmin_ward_201220140226115354196" name="Wards">
@@ -270,7 +270,7 @@
             <item>vmadmin_township_polygon20140226115543207</item>
             <item>vmadmin_postcode_polygon20140226115540992</item>
             <item>vmadmin_parish_polygon20140226115543535</item>
-            <item>vmadmin_state_council_200520140226115543207</item>
+            <item>vmadmin_state_council_201320140226115543207</item>
             <item>vmadmin_locality_polygon20140226115535126</item>
             <item>vmadmin_lga_polygon20140226115540446</item>
             <item>vmadmin_mfb_district20140226115540290</item>
@@ -468,9 +468,9 @@
                     <legendlayerfile isInOverview="0" layerid="vmadmin_mfb_district20140226115540290" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="State Councils 2005" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="State Councils 2013" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vmadmin_state_council_200520140226115543207" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="vmadmin_state_council_201320140226115543207" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Wards" showFeatureCount="0">
@@ -11604,14 +11604,14 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>vmadmin_state_council_200520140226115543207</id>
-            <datasource>dbname='./Victoria.sqlite' table="vmadmin_state_council_2005" (GEOMETRY) sql=</datasource>
+            <id>vmadmin_state_council_201320140226115543207</id>
+            <datasource>dbname='./Victoria.sqlite' table="vmadmin_state_council_2013" (GEOMETRY) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>State Councils 2005</layername>
+            <layername>State Councils 2013</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -19285,7 +19285,7 @@
                 <value>vmadmin_mfb_district20140226115540290</value>
                 <value>vmadmin_parish_polygon20140226115543535</value>
                 <value>vmadmin_postcode_polygon20140226115540992</value>
-                <value>vmadmin_state_council_200520140226115543207</value>
+                <value>vmadmin_state_council_201320140226115543207</value>
                 <value>vmadmin_township_polygon20140226115543207</value>
                 <value>vmadmin_vicgov_region20140226115541632</value>
                 <value>vmadmin_ward_201220140226115354196</value>
