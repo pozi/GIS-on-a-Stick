@@ -24,6 +24,7 @@ GIS-on-a-Stick contains the following Windows software applications.
 #### Portable QGIS
 
 * Source: http://webgis.arpa.piemonte.it/geoportale/index.php/documentazione/manuali-e-strumenti/accesso-con-qgis/100-quantum-gis-qgis
+* More information: http://wiki.gfoss.it/index.php/Qgis_Portable
 * Destination: `\apps\qgis_portable`
 
 Recommended settings:
