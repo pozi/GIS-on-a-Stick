@@ -56,7 +56,15 @@ Exclude:
 
 A *Spatialite* portable spatial database contains a wealth of Vicmap data, made available by the Victorian state government are provided under a [Creative Commons Attribution 3.0 Australia licence](http://creativecommons.org/licenses/by/3.0/au/deed.en).
 
-The database has been populated using the included *Pozi Connect* software.
+* Vicmap Address
+* Vicmap Admin
+* Vicmap Planning
+* Vicmap Transport
+* Vicmap Elevation
+* Vicmap Lite
+* Vicmap Hydro
+* Vicmap Property Simplified 1 - Vicmap Property
+* Vicmap Vegetation
 
 * Destination: `\data\Victoria.sqlite`
 
