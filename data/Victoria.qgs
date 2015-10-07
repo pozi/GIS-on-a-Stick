@@ -68,12 +68,6 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Crown Land">
-            <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="delwp_plm2520150924165402322" name="Public Land Management">
-                <customproperties/>
-            </layer-tree-layer>
-        </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Checked" name="Vicmap Address">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="vmadd_address20150204122320428" name="Address Points">
@@ -154,6 +148,12 @@
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vmelev_el_contour_1to5m20150924171117855" name="Contour 1 to 5m">
+                <customproperties/>
+            </layer-tree-layer>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Crown Land">
+            <customproperties/>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="delwp_plm2520150924165402322" name="Public Land Management">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -251,10 +251,10 @@
         </destinationsrs>
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_lga20140220114915548"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_watercourse20150924172310624"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadmin_depi_region20140226115531164"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_tr_rail20140220114915878"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadd_address20140228121748753"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmhydro_hy_watercourse20150924172310624"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail20140303150307371"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_victoria_polygon_su520140220114916116"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmlite_geo_point_label20140220114915366"/>
@@ -268,8 +268,8 @@
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110500580"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmelev_el_contour20150924171051956"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204110429018"/>
-            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204111709634"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmprop_parcel_mp20150924173130301"/>
+            <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="20150204111709634"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmadd_address20150204122320428"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmprop_property_mp20140228103924267"/>
             <layer_coordinate_transform destAuthId="EPSG:3111" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vmtrans_tr_rail_infrastructure20140303150307563"/>
@@ -465,13 +465,6 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Crown Land">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Public Land Management" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="delwp_plm2520150924165402322" visible="0"/>
-                </filegroup>
-            </legendlayer>
-        </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="Vicmap Address">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Address Points" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -589,6 +582,13 @@
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Contour 1 to 5m" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="vmelev_el_contour_1to5m20150924171117855" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Crown Land">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Public Land Management" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="delwp_plm2520150924165402322" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -13039,7 +13039,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>delwp_plm2520150924165402322</id>
             <datasource>dbname='./Victoria.sqlite' table="delwp_plm25" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -13343,7 +13343,7 @@
             </customproperties>
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
-            <layerTransparency>50</layerTransparency>
+            <layerTransparency>65</layerTransparency>
             <displayfield>NAME</displayfield>
             <label>0</label>
             <labelattributes>
@@ -13366,10 +13366,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -19294,10 +19294,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -19561,10 +19561,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -19836,10 +19836,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -20150,10 +20150,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -20465,10 +20465,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -26036,10 +26036,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -27167,6 +27167,7 @@
                 <value>20150204111709634</value>
                 <value>20150204111922540</value>
                 <value>20150204112403911</value>
+                <value>delwp_plm2520150924165402322</value>
                 <value>ptv_bus_route_metro20150208134733978</value>
                 <value>ptv_bus_route_regional20140305115836419</value>
                 <value>ptv_bus_stop20140305115834063</value>
@@ -27188,6 +27189,11 @@
                 <value>vmadmin_township_polygon20140226115543207</value>
                 <value>vmadmin_vicgov_region20140226115541632</value>
                 <value>vmadmin_ward_201220140226115354196</value>
+                <value>vmelev_el_contour20150924171051956</value>
+                <value>vmelev_el_contour_1to5m20150924171117855</value>
+                <value>vmhydro_hy_water_area_polygon20150924172307255</value>
+                <value>vmhydro_hy_water_point20150924172309530</value>
+                <value>vmhydro_hy_watercourse20150924172310624</value>
                 <value>vmlite_built_up_area20140220114915017</value>
                 <value>vmlite_forest_su520140220114915230</value>
                 <value>vmlite_geo_area_label20140220114915322</value>
@@ -27205,16 +27211,10 @@
                 <value>vmplan_plan_uga20140226144909266</value>
                 <value>vmplan_plan_ugb20140226144909323</value>
                 <value>vmplan_plan_zone20140226144909341</value>
+                <value>vmprop_parcel_mp20150924173130301</value>
                 <value>vmprop_property_mp20140228103924267</value>
                 <value>vmtrans_tr_rail20140303150307371</value>
                 <value>vmtrans_tr_rail_infrastructure20140303150307563</value>
-                <value>delwp_plm2520150924165402322</value>
-                <value>vmelev_el_contour20150924171051956</value>
-                <value>vmelev_el_contour_1to5m20150924171117855</value>
-                <value>vmhydro_hy_water_area_polygon20150924172307255</value>
-                <value>vmhydro_hy_water_point20150924172309530</value>
-                <value>vmhydro_hy_watercourse20150924172310624</value>
-                <value>vmprop_parcel_mp20150924173130301</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
