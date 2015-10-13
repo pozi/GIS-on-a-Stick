@@ -20203,7 +20203,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="25000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>vmhydro_hy_watercourse20150924172310624</id>
             <datasource>dbname='./Victoria.sqlite' table="vmhydro_hy_watercourse" (GEOMETRY) sql=</datasource>
             <title></title>
@@ -20274,10 +20274,9 @@
             </edittypes>
             <renderer-v2 attr="HIERARCHY" symbollevels="0" type="categorizedSymbol">
                 <categories>
-                    <category render="false" symbol="0" value="" label=""/>
-                    <category render="true" symbol="1" value="H" label="H"/>
-                    <category render="true" symbol="2" value="L" label="L"/>
-                    <category render="true" symbol="3" value="M" label="M"/>
+                    <category render="true" symbol="0" value="H" label="High"/>
+                    <category render="true" symbol="1" value="M" label="Medium"/>
+                    <category render="true" symbol="2" value="L" label="Low"/>
                 </categories>
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
@@ -20288,9 +20287,9 @@
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="25,172,213,255"/>
+                            <prop k="line_color" v="220,230,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.26"/>
+                            <prop k="line_width" v="0.86"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -20309,7 +20308,7 @@
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="line_color" v="220,230,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.86"/>
+                            <prop k="line_width" v="0.46"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -20329,25 +20328,6 @@
                             <prop k="line_color" v="220,230,255,255"/>
                             <prop k="line_style" v="solid"/>
                             <prop k="line_width" v="0.16"/>
-                            <prop k="line_width_unit" v="MM"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="3">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="line_color" v="220,230,255,255"/>
-                            <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.46"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
