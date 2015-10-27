@@ -8349,14 +8349,14 @@
                 <rules key="{4cab7487-25d7-4f14-85ed-3d291d53218e}">
                     <rule key="{65198128-a628-4554-904c-dfee73ad4d35}">
                         <rule scalemaxdenom="25000" key="{5c895f73-31e7-4bd9-be80-8e2909bc8316}" scalemindenom="1" label="1 - 25000">
-                            <rule filter="&quot;CLASS_CODE&quot; = 0.0000" key="{1acecdd2-0d22-4b67-9196-e9b1fc5ef115}" symbol="0" label="Freeway"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 1.0000" key="{4b8ab995-c370-455e-b290-e13f1bbfa89a}" symbol="1" label="Highway"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 2.0000" key="{5852bfa5-4e9a-4623-8359-41a3fad9b764}" symbol="2" label="Arterial"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 3.0000" key="{e0d6f893-e51b-4e23-8399-f7c550ce1ede}" symbol="3" label="Sub-Arterial"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 4.0000" key="{bcafad6e-44d5-4145-9d05-1a33464ece58}" symbol="4" label="Collector"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 5.0000" key="{4337dc33-b6f7-4271-89d2-36080e8346ca}" symbol="5" label="Local"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 6.0000" key="{c6ddfe0d-de21-4021-8c2c-e9120a041709}" symbol="6" label="2WD"/>
-                            <rule filter="&quot;CLASS_CODE&quot; = 7.0000" key="{6a980e01-83ec-485c-993b-c90d92bb6c3b}" symbol="7" label="4WD"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 0.0000" key="{8cd2f642-5e52-463c-8a91-6c6b18b39de9}" symbol="0" label="Freeway"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 1.0000" key="{68cf11df-6e93-42b1-aadf-bb923dbb65c5}" symbol="1" label="Highway"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 2.0000" key="{c643f48b-221b-43cd-ac7c-431464b50eda}" symbol="2" label="Arterial"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 3.0000" key="{9bd73e2b-c814-47bd-baa3-ed4bbd427157}" symbol="3" label="Sub-Arterial"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 4.0000" key="{f9916530-12bc-45a6-977e-1de630d542d4}" symbol="4" label="Collector"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 5.0000" key="{3884b08b-207a-402b-89b4-7cd08de295b3}" symbol="5" label="Local"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 6.0000" key="{53ea9b7f-a1ec-4ed4-b254-e1b777a2a9fc}" symbol="6" label="2WD"/>
+                            <rule filter="&quot;CLASS_CODE&quot; = 7.0000" key="{d95f69ae-91c5-49ae-9fdc-bb4afef831d8}" symbol="7" label="4WD"/>
                         </rule>
                     </rule>
                 </rules>
@@ -8371,7 +8371,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="1.5"/>
+                            <prop k="line_width" v="2"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8388,7 +8388,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="246,186,94,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="1.2"/>
+                            <prop k="line_width" v="1.7"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8407,7 +8407,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="1.3"/>
+                            <prop k="line_width" v="1.7"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8424,7 +8424,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,228,138,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="1"/>
+                            <prop k="line_width" v="1.4"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8443,7 +8443,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="1.2"/>
+                            <prop k="line_width" v="1.5"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8460,7 +8460,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,242,188,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.9"/>
+                            <prop k="line_width" v="1.2"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8479,7 +8479,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.9"/>
+                            <prop k="line_width" v="1.2"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8496,7 +8496,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.6"/>
+                            <prop k="line_width" v="0.9"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8515,7 +8515,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.8"/>
+                            <prop k="line_width" v="1.1"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8532,7 +8532,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.5"/>
+                            <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8551,7 +8551,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.7"/>
+                            <prop k="line_width" v="1"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8568,7 +8568,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.4"/>
+                            <prop k="line_width" v="0.7"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8587,7 +8587,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.6"/>
+                            <prop k="line_width" v="0.9"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8604,7 +8604,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.3"/>
+                            <prop k="line_width" v="0.6"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8623,7 +8623,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="180,180,180,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.5"/>
+                            <prop k="line_width" v="0.8"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8640,7 +8640,7 @@
                             <prop k="joinstyle" v="round"/>
                             <prop k="line_color" v="255,255,255,255"/>
                             <prop k="line_style" v="solid"/>
-                            <prop k="line_width" v="0.2"/>
+                            <prop k="line_width" v="0.5"/>
                             <prop k="line_width_unit" v="MM"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
