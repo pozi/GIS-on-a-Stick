@@ -1,8 +1,8 @@
 # GIS-on-a-Stick
 
-Kickstart your next Geographic Information System project with a USB flash drive containing open source GIS software and free data.
+*Note: GIS-on-a-Stick is no longer a maintained project. We are no longer posting out free USB drives of GIS-on-a-Stick. We apologise for any inconvenience.*
 
-GIS-on-a-stick contains the robust QGIS software and Vicmap data in a self-contained spatial database.
+GIS-on-a-Stick is a USB flash drive containing the open source QGIS software and free Vicmap data in a self-contained spatial database. It was designed as a quickstart for projects that could benefit from GIS software and Victorian Government data.
 
 GIS-on-a-Stick was launched at the Newtech Conference in Ballarat on March 2014:
 http://slid.es/simonokeefe/gis-on-a-stick
@@ -94,4 +94,3 @@ Tips:
 * to increase the speed of creating copies, copy the contents of your stick to your C drive first to use as your master copy
 * use the `tools\Duplicate GIS-on-a-Stick.bat` script to copy your master copy to another stick
 * use in conjunction with a multi-port USB hub to run off multiple copies at once - we've tested it with up to five sticks at once
-* check back regularly at [www.github.com/groundtruth/gis-on-a-stick](http://www.github.com/groundtruth/gis-on-a-stick) for the most-up-to-date instructions and tips
